@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F612800-58EA-4D62-8850-C8FDF040767E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Infraccional.ObjetoTransferencia</RootNamespace>
+    <AssemblyName>Infraccional.ObjetoTransferencia</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Infraccional\Objetos\_ADCEstados.cs" />
+    <Compile Include="Infraccional\Objetos\_CausalIncumplimiento.cs" />
+    <Compile Include="Infraccional\Objetos\_ActaDenunciaCitacion.cs" />
+    <Compile Include="Infraccional\Objetos\_Incumplimiento.cs" />
+    <Compile Include="Infraccional\Objetos\_NegocioFiscalizacion.cs" />
+    <Compile Include="Infraccional\Objetos\_NegocioFiscalizacionAdjuntos.cs" />
+    <Compile Include="Infraccional\Objetos\_ADCResolucion.cs" />
+    <Compile Include="Infraccional\Objetos\_ActaDenunciaCItacionHistorico.cs" />
+    <Compile Include="Infraccional\Objetos\_Opcion.cs" />
+    <Compile Include="Infraccional\Objetos\_Pregunta.cs" />
+    <Compile Include="Infraccional\Objetos\_Proceso.cs" />
+    <Compile Include="Infraccional\Objetos\_Usuario.cs" />
+    <Compile Include="Infraccional\Objetos\_Oficina.cs" />
+    <Compile Include="Infraccional\TO\ActaDenunciaCitacion.cs" />
+    <Compile Include="Infraccional\TO\ActaDenunciaCitacionDetalle.cs" />
+    <Compile Include="Infraccional\TO\ActaDenunciaCItacionHistoricoTO.cs" />
+    <Compile Include="Infraccional\TO\ADCHito.cs" />
+    <Compile Include="Infraccional\TO\Incumplimiento.cs" />
+    <Compile Include="Infraccional\TO\MaestroHistorico.cs" />
+    <Compile Include="Infraccional\TO\ActaDenunciaCItacionHistorico.cs" />
+    <Compile Include="Infraccional\TO\ActaDenunciaCitacionTO.cs" />
+    <Compile Include="Infraccional\TO\ActaDenunciaProcedimiento.cs" />
+    <Compile Include="Infraccional\TO\Infractor.cs" />
+    <Compile Include="Infraccional\TO\CausalIncumplimiento.cs" />
+    <Compile Include="Infraccional\TO\NegocioFiscalizacionAdjuntos.cs" />
+    <Compile Include="Infraccional\TO\ADCResolucion.cs" />
+    <Compile Include="Infraccional\TO\Opcion.cs" />
+    <Compile Include="Infraccional\TO\ParametrosInfractor.cs" />
+    <Compile Include="Infraccional\TO\ParametrosSubMateria.cs" />
+    <Compile Include="Infraccional\TO\Pregunta.cs" />
+    <Compile Include="Infraccional\TO\Proceso.cs" />
+    <Compile Include="Infraccional\TO\Oficina.cs" />
+    <Compile Include="Infraccional\TO\NegocioFiscalizacion.cs" />
+    <Compile Include="Infraccional\TO\Usuario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

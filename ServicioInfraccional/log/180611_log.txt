@@ -1,0 +1,2 @@
+2018-06-12 09:12:45,740: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-12 09:12:45,775: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente

@@ -1,0 +1,118 @@
+2018-06-05 09:21:26,378: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 09:21:26,416: [ INFO:53] Llamada a GetEntidad
+2018-06-05 09:21:26,417: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 09:21:26,418: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 09:21:49,632: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 09:21:49,635: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 09:22:13,140: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 09:22:13,142: [ INFO:53] Llamada a GetEntidad
+2018-06-05 09:22:13,143: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 09:22:13,143: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 09:24:40,101: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 09:24:40,123: [ INFO:53] Llamada a GetEntidad
+2018-06-05 09:24:40,124: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 09:24:40,124: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 09:24:50,813: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 09:24:50,815: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 09:25:07,305: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 09:25:07,306: [ INFO:53] Llamada a GetEntidad
+2018-06-05 09:25:07,306: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 09:25:07,306: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 10:43:58,570: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 10:43:58,571: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 10:44:17,002: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 10:44:17,003: [ INFO:53] Llamada a GetEntidad
+2018-06-05 10:44:17,003: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 10:44:17,003: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 10:47:42,195: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 10:47:42,195: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:00:04,896: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:00:04,919: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:00:04,920: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:00:04,920: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:00:10,755: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:00:10,757: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:00:50,113: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:00:50,114: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:00:50,114: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:00:50,115: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:00:55,075: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:00:55,076: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:01:10,953: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:01:10,955: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:01:10,956: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:01:10,956: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:08:34,833: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:08:34,833: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:08:41,331: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:08:41,331: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:08:41,332: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:08:41,332: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:10:16,961: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:10:16,962: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:11:01,780: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:11:01,781: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:11:01,781: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:11:01,781: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:12:09,634: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:12:09,634: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:12:56,303: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:12:56,304: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:12:56,304: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:12:56,304: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:14:52,723: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:14:52,751: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:14:52,752: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:14:52,752: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:26:50,399: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:26:50,422: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:26:50,423: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:26:50,424: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:27:40,664: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:27:40,666: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:28:38,316: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:28:38,339: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:28:38,340: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:28:38,340: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:29:15,636: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:29:15,638: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:29:21,944: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:29:21,944: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:29:21,944: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:29:21,945: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:31:59,807: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:31:59,829: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:31:59,830: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:31:59,830: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:33:06,678: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:33:06,680: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:33:54,743: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:33:54,808: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:33:54,809: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:33:54,809: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:36:24,592: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:36:24,618: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:36:24,618: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:36:24,619: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:38:49,150: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:38:49,171: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:38:49,172: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:38:49,172: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:41:14,487: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:41:14,490: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-06-05 11:41:27,315: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:41:27,316: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:41:27,316: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:41:27,316: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:43:48,472: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:43:48,493: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:43:48,494: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:43:48,494: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:44:27,840: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:44:30,507: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:45:12,080: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-05 11:45:12,080: [ INFO:53] Llamada a GetEntidad
+2018-06-05 11:45:12,080: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-05 11:45:12,081: [ INFO:69] Llamada a los tipos de metodos
+2018-06-05 11:45:51,252: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-05 11:45:51,253: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente

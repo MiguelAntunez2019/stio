@@ -1,0 +1,12 @@
+2018-06-15 09:47:36,627: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-15 09:47:36,690: [ INFO:53] Llamada a GetEntidad
+2018-06-15 09:47:36,691: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-15 09:47:36,691: [ INFO:69] Llamada a los tipos de metodos
+2018-06-15 09:48:50,108: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-15 09:48:50,113: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-15 11:45:47,585: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-15 11:45:47,621: [ INFO:53] Llamada a GetEntidad
+2018-06-15 11:45:47,623: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-15 11:45:47,624: [ INFO:69] Llamada a los tipos de metodos
+2018-06-15 11:45:48,464: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-06-15 11:45:48,468: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente

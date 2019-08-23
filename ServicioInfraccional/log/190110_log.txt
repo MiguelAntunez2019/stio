@@ -1,0 +1,28 @@
+2019-01-10 09:50:28,226: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-10 09:50:28,277: [ INFO:53] Llamada a GetEntidad
+2019-01-10 09:50:28,278: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-10 09:50:28,278: [ INFO:69] Llamada a los tipos de metodos
+2019-01-10 09:50:28,282: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-10 09:50:30,687: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-10 09:50:30,694: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-10 09:50:31,517: [ERROR:558] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-10 09:51:22,220: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-10 09:51:22,241: [ INFO:53] Llamada a GetEntidad
+2019-01-10 09:51:22,241: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-10 09:51:22,242: [ INFO:69] Llamada a los tipos de metodos
+2019-01-10 09:51:22,247: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-10 09:51:23,981: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-10 09:51:23,988: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-10 09:51:24,870: [ INFO:554] Busqueda finalizada.
+2019-01-10 09:51:24,936: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":0,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-10 09:51:24,936: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":0,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-10 09:52:44,521: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-10 09:52:44,522: [ INFO:53] Llamada a GetEntidad
+2019-01-10 09:52:44,522: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-10 09:52:44,522: [ INFO:69] Llamada a los tipos de metodos
+2019-01-10 09:52:44,544: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-10 09:52:47,789: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-10 09:52:47,789: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-10 09:52:50,654: [ INFO:554] Busqueda finalizada.
+2019-01-10 09:52:50,656: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":999,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-10 09:52:50,657: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":999,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa

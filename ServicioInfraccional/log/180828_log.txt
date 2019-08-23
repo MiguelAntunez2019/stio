@@ -1,0 +1,146 @@
+2018-08-28 20:06:49,045: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:06:49,077: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:06:49,078: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:06:49,078: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:06:49,680: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:06:49,682: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:07:28,629: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:07:32,116: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:07:32,556: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:07:32,557: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:07:32,662: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:07:35,150: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:07:52,912: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:07:53,929: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:07:57,240: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:08:02,329: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:08:44,479: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:08:44,480: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:08:47,595: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:08:47,596: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:08:47,596: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:08:47,596: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:11:15,237: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:11:15,237: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:11:19,199: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:11:19,199: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:11:19,200: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:11:19,200: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:11:23,662: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:11:23,662: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:11:26,224: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:11:26,225: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:11:26,225: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:11:26,226: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:13:28,057: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:13:28,057: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:13:30,001: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:13:30,001: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:13:30,001: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:13:30,002: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:13:32,541: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:13:32,541: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:13:36,969: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:13:36,969: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:13:36,969: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:13:36,970: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:13:56,170: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:13:56,170: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:13:57,754: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:13:57,755: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:13:57,755: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:13:57,756: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:14:24,037: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:14:24,037: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:14:25,942: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:14:25,943: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:14:25,943: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:14:25,943: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:14:56,669: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:14:56,669: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2018-08-28 20:14:58,730: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:14:58,730: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:14:58,730: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:14:58,730: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:19:22,510: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 20:19:22,539: [ INFO:53] Llamada a GetEntidad
+2018-08-28 20:19:22,540: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 20:19:22,540: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 20:19:43,513: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-08-28 20:19:43,515: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-08-28 21:04:34,900: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 21:04:34,914: [ INFO:53] Llamada a GetEntidad
+2018-08-28 21:04:34,914: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 21:04:34,915: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 21:07:00,253: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 21:07:00,278: [ INFO:53] Llamada a GetEntidad
+2018-08-28 21:07:00,278: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 21:07:00,279: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 22:27:41,633: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 22:27:41,657: [ INFO:53] Llamada a GetEntidad
+2018-08-28 22:27:41,657: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 22:27:41,658: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 22:27:53,746: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:27:53,748: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:28:01,719: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 22:28:01,719: [ INFO:53] Llamada a GetEntidad
+2018-08-28 22:28:01,720: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 22:28:01,720: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 22:28:10,322: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:28:10,323: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:28:18,297: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 22:28:18,297: [ INFO:53] Llamada a GetEntidad
+2018-08-28 22:28:18,297: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 22:28:18,298: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 22:30:21,704: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:30:21,704: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:30:28,456: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 22:30:28,468: [ INFO:53] Llamada a GetEntidad
+2018-08-28 22:30:28,468: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 22:30:28,468: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 22:31:30,595: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:31:30,596: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2018-08-28 22:37:32,377: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 22:37:36,620: [ INFO:53] Llamada a GetEntidad
+2018-08-28 22:37:39,204: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 22:37:39,973: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 23:50:44,548: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 23:50:44,574: [ INFO:53] Llamada a GetEntidad
+2018-08-28 23:50:44,575: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 23:50:44,575: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 23:51:13,016: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+2018-08-28 23:51:13,018: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice y la longitud deben hacer referencia a una ubicación en la cadena.
+Nombre del parámetro: length
+2018-08-28 23:51:18,006: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 23:51:18,015: [ INFO:53] Llamada a GetEntidad
+2018-08-28 23:51:18,015: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 23:51:18,015: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 23:57:24,104: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 23:57:24,128: [ INFO:53] Llamada a GetEntidad
+2018-08-28 23:57:24,130: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 23:57:24,130: [ INFO:69] Llamada a los tipos de metodos
+2018-08-28 23:59:18,459: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-28 23:59:18,485: [ INFO:53] Llamada a GetEntidad
+2018-08-28 23:59:18,486: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-28 23:59:18,486: [ INFO:69] Llamada a los tipos de metodos

@@ -1,0 +1,124 @@
+2019-01-15 08:24:48,460: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 08:24:48,477: [ INFO:53] Llamada a GetEntidad
+2019-01-15 08:24:48,477: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 08:24:48,477: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 08:24:48,528: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-15 08:24:48,927: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-01-15 08:24:48,928: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-01-15 08:25:21,679: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 08:25:21,679: [ INFO:53] Llamada a GetEntidad
+2019-01-15 08:25:21,679: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 08:25:21,680: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 08:25:21,680: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-15 08:25:52,274: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-01-15 08:25:52,274: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-01-15 08:25:54,982: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 08:25:54,983: [ INFO:53] Llamada a GetEntidad
+2019-01-15 08:25:54,983: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 08:25:54,983: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 08:25:54,983: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-15 08:29:46,642: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 08:29:46,653: [ INFO:53] Llamada a GetEntidad
+2019-01-15 08:29:46,654: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 08:29:46,654: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 08:29:46,657: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-15 08:29:49,202: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386071,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null},{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386072,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null}], Bitacoras exitosas
+2019-01-15 08:29:49,204: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386071,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null},{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386072,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null}], Bitacoras exitosas
+2019-01-15 08:31:13,196: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 08:31:13,196: [ INFO:53] Llamada a GetEntidad
+2019-01-15 08:31:13,196: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 08:31:13,196: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 08:31:13,196: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-15 08:31:15,359: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-01-15 08:31:15,360: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-01-15 08:31:22,226: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 08:31:22,226: [ INFO:53] Llamada a GetEntidad
+2019-01-15 08:31:22,226: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 08:31:22,227: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 08:31:22,227: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-15 08:31:24,456: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386071,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null},{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386072,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null}], Bitacoras exitosas
+2019-01-15 08:31:24,456: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386071,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null},{"ADC_ID":54469,"Sistema":0,"EntidadFiscalizadora":0,"Rol":19131.0,"Numero":0.0,"ADC_FECHA_AUDIENCIA":"0001-01-01T00:00:00","UsuarioCreador":null,"Inspector":0,"OficinaUsuario":0,"FechaIngreso":"0001-01-01T00:00:00","ADC_FECHA_DENUNCIA":"0001-01-01T00:00:00","ADC_NRO_FISCALIZACION":"1130000324","Incumplimientos":null,"usuario":{"Identificador":"2172","Nombre":null,"Login":null,"password":null,"Email":null,"activo":null,"menuUsuario":0,"Comuna":null,"Oficina":0,"Cargo":0},"ActaDenunciaCItacionHistorico":{"CodigoResolucion":386072,"NumeroResolucion":null,"ObservacionResolucion":null,"ADH_RUT_USUARIO":null,"ADCResolucion":{"IdResolucion":0,"Fecha":"0001-01-01T00:00:00","FechaSistema":"0001-01-01T00:00:00","ActaDenunciaCItacionHistorico":null}},"NegocioFiscalizacion":null,"CausaIncumplimiento":null,"Proceso":{"IdProceso":1,"NombreProceso":"NORMAL"},"Infractor":null}], Bitacoras exitosas
+2019-01-15 17:04:15,378: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:04:15,406: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:04:15,407: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:04:15,407: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:04:27,874: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-15 17:04:27,876: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-15 17:04:31,333: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:04:31,333: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:04:31,334: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:04:31,334: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:24:46,093: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:24:46,114: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:24:46,115: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:24:46,115: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:32:55,922: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:32:55,943: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:32:55,944: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:32:55,944: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:34:50,254: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:34:50,256: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:34:53,361: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:34:53,361: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:34:53,361: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:34:53,362: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:36:30,875: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:36:30,875: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:36:33,233: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:36:33,234: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:36:33,234: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:36:33,234: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:37:46,703: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:37:46,704: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:37:58,066: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:37:58,066: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:37:58,067: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:37:58,067: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:38:03,612: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:38:03,612: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:38:05,249: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:38:05,249: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:38:05,249: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:38:05,250: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:39:14,812: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:39:14,815: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:39:17,635: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:39:17,636: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:39:17,636: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:39:17,636: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:40:07,697: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:40:07,697: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Error parsing column 16 (Fono= - String)
+2019-01-15 17:40:10,187: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:40:10,188: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:40:10,188: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:40:10,188: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:45:09,482: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:45:09,505: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:45:09,505: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:45:09,505: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:46:28,466: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:46:28,479: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:46:28,479: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:46:28,479: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:51:15,783: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:51:15,819: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:51:15,820: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:51:15,820: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:51:23,138: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-15 17:51:23,140: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-15 17:51:32,195: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:51:32,196: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:51:32,196: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:51:32,196: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 17:52:11,359: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-15 17:52:11,360: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-15 17:52:14,215: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 17:52:14,216: [ INFO:53] Llamada a GetEntidad
+2019-01-15 17:52:14,216: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 17:52:14,216: [ INFO:69] Llamada a los tipos de metodos

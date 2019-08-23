@@ -1,0 +1,6 @@
+2018-08-29 22:28:26,991: [ INFO:50] Inicio de metodo GetPrincipal
+2018-08-29 22:28:29,331: [ INFO:53] Llamada a GetEntidad
+2018-08-29 22:28:35,090: [ INFO:66] Inicio de metodo GetEntidad
+2018-08-29 22:28:36,039: [ INFO:69] Llamada a los tipos de metodos
+2018-08-29 22:29:32,365: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-08-29 22:29:32,367: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente

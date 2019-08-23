@@ -1,0 +1,90 @@
+2018-06-18 14:32:38,435: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:32:38,496: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:32:38,498: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:32:38,498: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:32:39,029: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:32:39,045: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:00,299: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:33:00,300: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:33:00,300: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:33:00,300: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:33:00,305: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:00,306: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:02,657: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:33:02,657: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:33:02,657: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:33:02,658: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:33:02,663: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:02,663: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:04,847: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:33:04,848: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:33:04,848: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:33:04,848: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:33:04,854: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:04,854: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:06,373: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:33:06,374: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:33:06,374: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:33:06,374: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:33:06,385: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:06,385: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:08,310: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:33:08,310: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:33:08,311: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:33:08,311: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:33:27,813: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:27,813: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:33:36,339: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:33:36,340: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:33:36,340: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:33:36,340: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:42:21,312: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:42:21,312: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:42:21,313: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:42:21,313: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:42:25,385: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:25,386: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:25,523: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:25,524: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:25,817: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:42:25,817: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:42:25,818: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:42:25,818: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:42:34,791: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:34,792: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:39,991: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:42:39,992: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:42:39,992: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:42:39,992: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:42:43,007: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:43,008: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:43,093: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:42:43,094: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:42:43,094: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:42:43,094: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:42:43,586: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:42:43,586: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:43:02,994: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:43:02,994: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:43:02,994: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:43:02,995: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:43:42,214: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:43:42,214: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:43:42,215: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:43:42,215: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:43:46,979: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:43:47,013: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:43:47,013: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:43:47,014: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:45:09,200: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:45:09,200: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:45:09,200: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:45:09,201: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:45:26,424: [ INFO:50] Inicio de metodo GetPrincipal
+2018-06-18 14:45:26,445: [ INFO:53] Llamada a GetEntidad
+2018-06-18 14:45:26,445: [ INFO:66] Inicio de metodo GetEntidad
+2018-06-18 14:45:26,461: [ INFO:69] Llamada a los tipos de metodos
+2018-06-18 14:54:17,749: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:54:17,768: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:54:17,768: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento
+2018-06-18 14:54:17,768: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La secuencia contiene más de un elemento

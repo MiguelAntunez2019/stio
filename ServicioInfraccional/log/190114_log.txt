@@ -1,0 +1,10 @@
+2019-01-15 08:16:34,842: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-15 08:16:34,852: [ INFO:53] Llamada a GetEntidad
+2019-01-15 08:16:34,852: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-15 08:16:34,853: [ INFO:69] Llamada a los tipos de metodos
+2019-01-15 08:16:34,853: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-15 08:16:34,854: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2130000220
+2019-01-15 08:16:34,854: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-15 08:16:37,458: [ INFO:555] Busqueda finalizada.
+2019-01-15 08:16:37,462: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":54469,"FolioFiscalizacion":1130000324,"FolioADC":2130000220,"FechaCreacionADC":"2019-01-14T17:24:06.323","FechaAudiencia":"2019-01-14T15:13:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2019-01-14T15:13:00","Orden":1},{"IdEstadoSancionatorio":3,"EstadoSancionatorio":"Nombramiento Sustanciador","FechaActualizacion":"2019-01-15T00:00:00","Orden":2}]}], Lista Hitos Exitosa
+2019-01-15 08:16:37,464: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":54469,"FolioFiscalizacion":1130000324,"FolioADC":2130000220,"FechaCreacionADC":"2019-01-14T17:24:06.323","FechaAudiencia":"2019-01-14T15:13:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2019-01-14T15:13:00","Orden":1},{"IdEstadoSancionatorio":3,"EstadoSancionatorio":"Nombramiento Sustanciador","FechaActualizacion":"2019-01-15T00:00:00","Orden":2}]}], Lista Hitos Exitosa

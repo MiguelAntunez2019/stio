@@ -1,0 +1,102 @@
+2018-07-06 17:30:53,275: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:30:53,488: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:30:53,489: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:30:53,489: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:30:58,637: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:30:58,637: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:30:58,637: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:30:58,637: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:34:31,983: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:34:31,984: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:34:31,990: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:34:31,990: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:35:16,606: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:35:16,607: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:35:16,607: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:35:16,607: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:36:05,723: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:36:05,724: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:36:05,781: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:36:05,781: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:36:05,781: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:36:05,782: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:36:05,909: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:36:05,909: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: Referencia a objeto no establecida como instancia de un objeto.
+2018-07-06 17:36:37,000: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:36:37,019: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:36:37,020: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:36:37,021: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:36:51,983: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:36:51,983: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:36:51,984: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:36:51,984: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:37:35,518: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:37:35,531: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:37:35,534: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:37:35,533: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:37:53,718: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:37:53,719: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:37:53,719: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:37:53,719: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:41:41,310: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:41:41,310: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:41:41,310: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:41:41,310: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:41:41,336: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:41:41,337: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:44:47,878: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:44:47,878: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:50:12,148: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:50:12,167: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:50:12,168: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:50:12,168: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:50:48,327: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:50:48,328: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:50:48,328: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:50:48,328: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:53:59,744: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:53:59,747: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:53:59,750: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:53:59,751: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:54:48,064: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:54:48,083: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:54:48,083: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:54:48,083: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:54:59,022: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:54:59,022: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:54:59,023: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:54:59,023: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:55:40,094: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:55:40,094: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:55:40,099: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:55:40,099: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:56:04,894: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:56:04,895: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:56:04,895: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:56:04,895: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:56:05,081: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:56:05,081: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 17:56:05,385: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 17:56:05,385: [ INFO:53] Llamada a GetEntidad
+2018-07-06 17:56:05,386: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 17:56:05,386: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 17:56:05,559: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 17:56:05,559: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 18:07:20,594: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 18:07:20,595: [ INFO:53] Llamada a GetEntidad
+2018-07-06 18:07:20,595: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 18:07:20,595: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 18:07:20,780: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 18:07:20,780: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 18:12:45,337: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 18:12:45,337: [ INFO:53] Llamada a GetEntidad
+2018-07-06 18:12:45,337: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 18:12:45,338: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 18:12:45,462: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 18:12:45,463: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: La clave proporcionada no se encontró en el diccionario.
+2018-07-06 18:12:45,540: [ INFO:50] Inicio de metodo GetPrincipal
+2018-07-06 18:12:45,541: [ INFO:53] Llamada a GetEntidad
+2018-07-06 18:12:45,541: [ INFO:66] Inicio de metodo GetEntidad
+2018-07-06 18:12:45,541: [ INFO:69] Llamada a los tipos de metodos
+2018-07-06 18:12:45,676: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2018-07-06 18:12:45,677: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente

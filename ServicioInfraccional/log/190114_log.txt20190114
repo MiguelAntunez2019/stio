@@ -1,0 +1,288 @@
+2019-01-14 10:24:07,645: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:24:07,676: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:24:07,677: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:24:07,677: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:24:07,681: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:24:07,845: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080005874
+2019-01-14 10:24:07,856: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:24:08,170: [ERROR:558] Error al realizar busqueda Referencia a objeto no establecida como instancia de un objeto.
+2019-01-14 10:24:20,658: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:24:20,658: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:24:20,658: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:24:20,658: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:24:20,658: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:24:20,659: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 147258
+2019-01-14 10:24:20,659: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:24:20,769: [ERROR:558] Error al realizar busqueda Referencia a objeto no establecida como instancia de un objeto.
+2019-01-14 10:24:22,929: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:24:22,929: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:24:22,930: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:24:22,930: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:24:22,930: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:24:22,930: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 147258
+2019-01-14 10:24:22,930: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:24:22,991: [ERROR:558] Error al realizar busqueda Referencia a objeto no establecida como instancia de un objeto.
+2019-01-14 10:24:40,122: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:24:40,122: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:24:40,122: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:24:40,122: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:24:40,122: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:24:40,123: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 147258
+2019-01-14 10:24:40,123: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:24:40,213: [ERROR:558] Error al realizar busqueda Referencia a objeto no establecida como instancia de un objeto.
+2019-01-14 10:26:26,945: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:26:26,958: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:26:26,958: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:26:26,959: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:26:26,962: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:26:27,079: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 147258
+2019-01-14 10:26:27,089: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:26:27,276: [ INFO:554] Busqueda finalizada.
+2019-01-14 10:26:27,321: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":180627711,"IdADC":54468,"FolioFiscalizacion":1060001200,"FolioADC":147258,"FechaCreacionADC":"2018-11-22T18:53:47.187","FechaAudiencia":"2018-11-22T04:03:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2018-11-22T16:04:00","Orden":1}]}], Lista Hitos Exitosa
+2019-01-14 10:26:27,321: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":180627711,"IdADC":54468,"FolioFiscalizacion":1060001200,"FolioADC":147258,"FechaCreacionADC":"2018-11-22T18:53:47.187","FechaAudiencia":"2018-11-22T04:03:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2018-11-22T16:04:00","Orden":1}]}], Lista Hitos Exitosa
+2019-01-14 10:26:40,945: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:26:40,945: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:26:40,946: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:26:40,946: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:26:40,946: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:26:40,947: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:26:40,947: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:26:41,024: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:27:06,827: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:27:06,828: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:27:06,828: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:27:06,828: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:27:06,828: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:27:13,786: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:27:13,787: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:27:13,838: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:27:31,684: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:27:31,684: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:27:31,684: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:27:31,684: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:27:31,685: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:27:39,332: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:27:43,639: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:27:59,411: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:28:02,247: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:28:02,247: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:28:02,248: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:28:02,248: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:28:02,248: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:28:03,663: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:28:03,663: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:28:23,517: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:28:27,772: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:28:27,773: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:28:27,773: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:28:27,773: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:28:27,773: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:28:29,944: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:28:29,944: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:29:12,684: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:29:12,695: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:29:12,696: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:29:12,696: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:29:12,700: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:29:15,205: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:29:15,214: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:29:16,119: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:29:20,320: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:29:20,320: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:29:20,321: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:29:20,321: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:29:20,321: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:29:22,067: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:29:22,067: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:36:02,349: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:36:02,375: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:36:02,375: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:36:02,375: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:36:02,379: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:36:04,550: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:36:04,561: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:36:05,372: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:36:09,274: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:36:09,275: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:36:09,275: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:36:09,275: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:36:09,275: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:36:11,044: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:36:11,045: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:36:15,577: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:36:16,995: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:36:16,995: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:36:16,996: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:36:16,996: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:36:16,996: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:36:19,992: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:36:19,993: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:37:23,370: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:37:42,995: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:37:42,996: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:37:42,996: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:37:42,996: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:37:42,996: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:37:44,645: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:37:44,646: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:39:53,259: [ERROR:558] Error al realizar busqueda Arithmetic overflow error converting expression to data type int.
+2019-01-14 10:42:34,836: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:42:34,851: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:42:34,852: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:42:34,852: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:42:34,857: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:42:36,735: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:42:36,745: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:42:38,340: [ERROR:558] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-14 10:42:56,679: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:42:56,680: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:42:56,680: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:42:56,680: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:42:56,680: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:42:59,546: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:42:59,547: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:44:26,888: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:44:26,902: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:44:26,903: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:44:26,903: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:44:26,907: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:44:30,829: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:44:30,839: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:45:19,583: [ERROR:558] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-14 10:45:21,440: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:45:21,440: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:45:21,440: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:45:21,440: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:45:21,440: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:45:21,441: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:45:21,441: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:48:30,704: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:48:30,715: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:48:30,715: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:48:30,716: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:48:30,719: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:48:30,832: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:48:30,841: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:49:08,684: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:49:08,695: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:49:08,696: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:49:08,696: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:49:08,699: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:49:08,817: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:49:08,826: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:49:11,722: [ERROR:558] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-14 10:49:15,517: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:49:15,517: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:49:15,517: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:49:15,517: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:49:15,518: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:49:15,518: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:49:15,518: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:49:42,800: [ERROR:558] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-14 10:49:44,743: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:49:44,744: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:49:44,744: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:49:44,744: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:49:44,744: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:49:44,745: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:49:44,745: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 10:50:59,219: [ERROR:558] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-14 10:51:04,608: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 10:51:04,608: [ INFO:53] Llamada a GetEntidad
+2019-01-14 10:51:04,608: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 10:51:04,609: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 10:51:04,609: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 10:51:04,609: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 10:51:04,609: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 11:01:38,109: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 11:01:38,125: [ INFO:53] Llamada a GetEntidad
+2019-01-14 11:01:38,126: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 11:01:38,126: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 11:01:38,129: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 11:01:38,244: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 11:01:38,253: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 11:01:58,090: [ERROR:558] Error al realizar busqueda Referencia a objeto no establecida como instancia de un objeto.
+2019-01-14 11:02:04,043: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 11:02:04,043: [ INFO:53] Llamada a GetEntidad
+2019-01-14 11:02:04,043: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 11:02:04,044: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 11:02:04,044: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 11:02:04,044: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 11:02:04,044: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 11:02:06,487: [ERROR:558] Error al realizar busqueda Referencia a objeto no establecida como instancia de un objeto.
+2019-01-14 11:02:09,289: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 11:02:09,289: [ INFO:53] Llamada a GetEntidad
+2019-01-14 11:02:09,289: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 11:02:09,289: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 11:02:09,290: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 11:02:09,290: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 11:02:09,290: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 11:07:37,126: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 11:07:37,145: [ INFO:53] Llamada a GetEntidad
+2019-01-14 11:07:37,145: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 11:07:37,146: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 11:07:37,211: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 11:07:37,404: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 11:07:37,425: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 11:08:52,034: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 11:08:52,048: [ INFO:53] Llamada a GetEntidad
+2019-01-14 11:08:52,050: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 11:08:52,051: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 11:08:52,055: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 11:08:52,195: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2080000152
+2019-01-14 11:08:52,206: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 11:09:02,998: [ INFO:555] Busqueda finalizada.
+2019-01-14 11:09:03,043: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":41447,"FolioFiscalizacion":88447365211,"FolioADC":2080000152,"FechaCreacionADC":"2017-06-27T16:37:14.817","FechaAudiencia":"2017-07-07T00:00:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2017-06-27T00:00:00","Orden":1},{"IdEstadoSancionatorio":3,"EstadoSancionatorio":"Nombramiento Sustanciador","FechaActualizacion":"2017-06-27T00:00:00","Orden":2},{"IdEstadoSancionatorio":5,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito","FechaActualizacion":"2017-07-07T00:00:00","Orden":3},{"IdEstadoSancionatorio":13,"EstadoSancionatorio":"Informe del sustanciador ","FechaActualizacion":"2017-07-07T00:00:00","Orden":4},{"IdEstadoSancionatorio":14,"EstadoSancionatorio":"Remisión Antecedentes Unidad Jurídica Regional","FechaActualizacion":"2017-07-07T00:00:00","Orden":5},{"IdEstadoSancionatorio":15,"EstadoSancionatorio":"Remisión Antecedentes para resolución a Director Regional","FechaActualizacion":"2017-07-27T00:00:00","Orden":6},{"IdEstadoSancionatorio":18,"EstadoSancionatorio":"Resolución Director Regional","FechaActualizacion":"2017-08-17T00:00:00","Orden":7},{"IdEstadoSancionatorio":21,"EstadoSancionatorio":"Notificación Resolución Director Regional","FechaActualizacion":"2017-08-31T00:00:00","Orden":8},{"IdEstadoSancionatorio":22,"EstadoSancionatorio":"Interposición de Recurso Revisión por el denunciado.","FechaActualizacion":"2017-09-11T00:00:00","Orden":9},{"IdEstadoSancionatorio":23,"EstadoSancionatorio":"Envío de recurso revisión con informe a Director Nacional. ","FechaActualizacion":"2017-09-15T00:00:00","Orden":10}]}], Lista Hitos Exitosa
+2019-01-14 11:09:03,043: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":41447,"FolioFiscalizacion":88447365211,"FolioADC":2080000152,"FechaCreacionADC":"2017-06-27T16:37:14.817","FechaAudiencia":"2017-07-07T00:00:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2017-06-27T00:00:00","Orden":1},{"IdEstadoSancionatorio":3,"EstadoSancionatorio":"Nombramiento Sustanciador","FechaActualizacion":"2017-06-27T00:00:00","Orden":2},{"IdEstadoSancionatorio":5,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito","FechaActualizacion":"2017-07-07T00:00:00","Orden":3},{"IdEstadoSancionatorio":13,"EstadoSancionatorio":"Informe del sustanciador ","FechaActualizacion":"2017-07-07T00:00:00","Orden":4},{"IdEstadoSancionatorio":14,"EstadoSancionatorio":"Remisión Antecedentes Unidad Jurídica Regional","FechaActualizacion":"2017-07-07T00:00:00","Orden":5},{"IdEstadoSancionatorio":15,"EstadoSancionatorio":"Remisión Antecedentes para resolución a Director Regional","FechaActualizacion":"2017-07-27T00:00:00","Orden":6},{"IdEstadoSancionatorio":18,"EstadoSancionatorio":"Resolución Director Regional","FechaActualizacion":"2017-08-17T00:00:00","Orden":7},{"IdEstadoSancionatorio":21,"EstadoSancionatorio":"Notificación Resolución Director Regional","FechaActualizacion":"2017-08-31T00:00:00","Orden":8},{"IdEstadoSancionatorio":22,"EstadoSancionatorio":"Interposición de Recurso Revisión por el denunciado.","FechaActualizacion":"2017-09-11T00:00:00","Orden":9},{"IdEstadoSancionatorio":23,"EstadoSancionatorio":"Envío de recurso revisión con informe a Director Nacional. ","FechaActualizacion":"2017-09-15T00:00:00","Orden":10}]}], Lista Hitos Exitosa
+2019-01-14 15:43:55,506: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 15:43:55,531: [ INFO:53] Llamada a GetEntidad
+2019-01-14 15:43:55,531: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 15:43:55,532: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 15:44:30,772: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 15:44:30,773: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 15:44:33,176: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 15:44:33,176: [ INFO:53] Llamada a GetEntidad
+2019-01-14 15:44:33,176: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 15:44:33,177: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 15:46:51,992: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 15:46:51,992: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 15:46:56,834: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 15:46:56,834: [ INFO:53] Llamada a GetEntidad
+2019-01-14 15:46:56,835: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 15:46:56,835: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 17:18:04,071: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 17:18:04,072: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 17:18:10,527: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 17:18:10,528: [ INFO:53] Llamada a GetEntidad
+2019-01-14 17:18:10,528: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 17:18:10,528: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 17:18:20,530: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 17:18:20,530: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-14 17:18:23,311: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 17:18:23,311: [ INFO:53] Llamada a GetEntidad
+2019-01-14 17:18:23,311: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 17:18:23,312: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 17:23:51,830: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 17:23:51,846: [ INFO:53] Llamada a GetEntidad
+2019-01-14 17:23:51,846: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 17:23:51,846: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 17:24:20,950: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2019-01-14 17:24:20,953: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2019-01-14 17:26:19,431: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-14 17:26:19,431: [ INFO:53] Llamada a GetEntidad
+2019-01-14 17:26:19,431: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-14 17:26:19,431: [ INFO:69] Llamada a los tipos de metodos
+2019-01-14 17:26:19,434: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-14 17:26:19,438: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2130000220
+2019-01-14 17:26:19,439: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-14 17:26:22,823: [ INFO:555] Busqueda finalizada.
+2019-01-14 17:26:22,900: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":54469,"FolioFiscalizacion":1130000324,"FolioADC":2130000220,"FechaCreacionADC":"2019-01-14T17:24:06.323","FechaAudiencia":"2019-01-14T15:13:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2019-01-14T15:13:00","Orden":1}]}], Lista Hitos Exitosa
+2019-01-14 17:26:22,901: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":54469,"FolioFiscalizacion":1130000324,"FolioADC":2130000220,"FechaCreacionADC":"2019-01-14T17:24:06.323","FechaAudiencia":"2019-01-14T15:13:00","Estados":[{"IdEstadoSancionatorio":1,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad)","FechaActualizacion":"2019-01-14T15:13:00","Orden":1}]}], Lista Hitos Exitosa

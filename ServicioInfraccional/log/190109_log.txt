@@ -1,0 +1,740 @@
+2019-01-09 08:34:09,069: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 08:34:09,162: [ INFO:53] Llamada a GetEntidad
+2019-01-09 08:34:09,162: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 08:34:09,163: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 08:34:09,169: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 08:34:09,171: [ INFO:86] Tipo ADC =1
+2019-01-09 08:34:15,104: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 32213
+2019-01-09 08:34:15,119: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 08:35:10,782: [ERROR:554] Error al realizar busqueda The multi-part identifier "ADC.ADC_ID" could not be bound.
+2019-01-09 08:35:34,743: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 08:35:34,743: [ INFO:53] Llamada a GetEntidad
+2019-01-09 08:35:34,744: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 08:35:34,744: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 08:35:34,744: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 08:35:34,745: [ INFO:86] Tipo ADC =1
+2019-01-09 08:35:34,745: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 32213
+2019-01-09 08:35:34,745: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 08:37:42,405: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 08:37:42,428: [ INFO:53] Llamada a GetEntidad
+2019-01-09 08:37:42,428: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 08:37:42,429: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 08:37:42,434: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 08:37:42,436: [ INFO:86] Tipo ADC =1
+2019-01-09 08:37:42,602: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 32213
+2019-01-09 08:37:42,615: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 08:38:19,864: [ INFO:550] Busqueda finalizada.
+2019-01-09 08:38:19,902: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 08:38:19,903: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 08:40:20,051: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 08:40:20,072: [ INFO:53] Llamada a GetEntidad
+2019-01-09 08:40:20,073: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 08:40:20,073: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 08:40:20,127: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 08:40:20,128: [ INFO:86] Tipo ADC =1
+2019-01-09 08:40:20,368: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 08:40:20,395: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 08:45:41,172: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 08:45:41,195: [ INFO:53] Llamada a GetEntidad
+2019-01-09 08:45:41,196: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 08:45:41,197: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 08:45:41,203: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 08:45:41,204: [ INFO:86] Tipo ADC =1
+2019-01-09 08:45:41,367: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 08:45:41,380: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 09:21:39,374: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 09:21:39,394: [ INFO:53] Llamada a GetEntidad
+2019-01-09 09:21:39,395: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 09:21:39,395: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 09:21:39,399: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 09:21:39,400: [ INFO:86] Tipo ADC =1
+2019-01-09 09:21:39,529: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 09:21:39,585: [ INFO:594] Busqueda finalizada.
+2019-01-09 09:21:39,588: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 09:21:39,590: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 09:21:39,759: [ERROR:554] Error al realizar busqueda Los datos tienen valor Null. No se puede llamar a este método o propiedad con valores Null.
+2019-01-09 09:21:54,373: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 09:21:54,373: [ INFO:53] Llamada a GetEntidad
+2019-01-09 09:21:54,373: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 09:21:54,374: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 09:21:54,374: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 09:21:54,374: [ INFO:86] Tipo ADC =1
+2019-01-09 09:21:54,375: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 09:21:54,375: [ INFO:594] Busqueda finalizada.
+2019-01-09 09:21:54,375: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 09:21:54,376: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 09:47:43,794: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 09:47:43,814: [ INFO:53] Llamada a GetEntidad
+2019-01-09 09:47:43,815: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 09:47:43,815: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 09:47:43,821: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 09:47:43,825: [ INFO:86] Tipo ADC =1
+2019-01-09 09:47:43,973: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 09:47:44,036: [ INFO:594] Busqueda finalizada.
+2019-01-09 09:47:44,037: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 09:47:44,039: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:01:57,897: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:01:57,911: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:01:57,911: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:01:57,912: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:01:57,913: [ INFO:55] Respuesta de la entidad: , , CRUD ingresado no válido
+2019-01-09 10:02:13,297: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:02:13,297: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:02:13,298: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:02:13,298: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:02:13,304: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:02:13,306: [ INFO:86] Tipo ADC =1
+2019-01-09 10:02:13,433: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:02:13,488: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:02:13,489: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:02:13,491: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:02:31,425: [ERROR:554] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-09 10:02:35,470: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:02:35,470: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:02:35,470: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:02:35,471: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:02:35,471: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:02:35,471: [ INFO:86] Tipo ADC =1
+2019-01-09 10:02:35,471: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:02:35,472: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:02:35,472: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:02:35,474: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:03:51,949: [ INFO:550] Busqueda finalizada.
+2019-01-09 10:03:51,965: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 10:03:51,976: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 10:03:55,457: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:03:55,458: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:03:55,458: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:03:55,458: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:03:55,458: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:03:55,459: [ INFO:86] Tipo ADC =1
+2019-01-09 10:03:55,459: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:03:55,459: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:03:55,459: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:03:55,460: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:12:21,443: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:12:21,456: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:12:21,457: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:12:21,457: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:12:21,462: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:12:21,463: [ INFO:86] Tipo ADC =1
+2019-01-09 10:12:21,589: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:12:21,645: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:12:21,645: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:12:21,648: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:27:14,135: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:27:14,149: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:27:14,149: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:27:14,150: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:27:14,154: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:27:14,155: [ INFO:86] Tipo ADC =1
+2019-01-09 10:27:14,281: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:27:14,336: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:27:14,337: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:27:14,340: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:30:35,947: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:30:35,960: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:30:35,961: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:30:35,961: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:30:35,966: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:30:35,967: [ INFO:86] Tipo ADC =1
+2019-01-09 10:30:36,091: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:30:36,149: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:30:36,150: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:30:36,152: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:32:55,671: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:32:55,685: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:32:55,685: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:32:55,686: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:32:55,690: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:32:55,691: [ INFO:86] Tipo ADC =1
+2019-01-09 10:32:55,816: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:32:55,880: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:32:55,881: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:32:55,883: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:33:07,743: [ERROR:554] Error al realizar busqueda Los datos tienen valor Null. No se puede llamar a este método o propiedad con valores Null.
+2019-01-09 10:33:22,166: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:33:22,166: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:33:22,167: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:33:22,168: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:33:22,168: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:33:22,169: [ INFO:86] Tipo ADC =1
+2019-01-09 10:33:22,169: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:33:22,169: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:33:22,170: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:33:22,170: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:38:58,545: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:38:58,559: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:38:58,559: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:38:58,559: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:38:58,564: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:38:58,565: [ INFO:86] Tipo ADC =1
+2019-01-09 10:38:58,693: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:38:58,748: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:38:58,749: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:38:58,751: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:39:33,350: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:39:33,364: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:39:33,364: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:39:33,365: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:39:33,369: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:39:33,371: [ INFO:86] Tipo ADC =1
+2019-01-09 10:39:33,507: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:39:33,565: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:39:33,567: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:39:33,570: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:39:46,338: [ERROR:554] Error al realizar busqueda Referencia a objeto no establecida como instancia de un objeto.
+2019-01-09 10:39:52,490: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:39:52,491: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:39:52,491: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:39:52,491: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:39:52,491: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:39:52,492: [ INFO:86] Tipo ADC =1
+2019-01-09 10:39:52,492: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:39:52,492: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:39:52,492: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:39:52,493: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 10:51:25,565: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 10:51:25,582: [ INFO:53] Llamada a GetEntidad
+2019-01-09 10:51:25,582: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 10:51:25,583: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 10:51:25,588: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 10:51:25,590: [ INFO:86] Tipo ADC =1
+2019-01-09 10:51:25,725: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:51:25,793: [ INFO:594] Busqueda finalizada.
+2019-01-09 10:51:25,794: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 10:51:25,796: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:23:08,130: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:23:08,155: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:23:08,155: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:23:08,156: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:23:08,160: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:23:08,161: [ INFO:84] Tipo ADC =1
+2019-01-09 11:23:08,295: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:23:08,355: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:23:08,358: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:23:08,362: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:23:37,875: [ERROR:554] Error al realizar busqueda Los datos tienen valor Null. No se puede llamar a este método o propiedad con valores Null.
+2019-01-09 11:23:43,147: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:23:43,148: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:23:43,148: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:23:43,148: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:23:43,149: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:23:43,149: [ INFO:84] Tipo ADC =1
+2019-01-09 11:23:43,150: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:23:43,150: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:23:43,150: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:23:43,151: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:27:37,258: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:27:37,272: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:27:37,272: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:27:37,273: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:27:37,277: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:27:37,278: [ INFO:84] Tipo ADC =1
+2019-01-09 11:27:37,407: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:27:37,472: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:27:37,472: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:27:37,475: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:29:05,740: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:29:05,753: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:29:05,754: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:29:05,754: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:29:05,758: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:29:05,759: [ INFO:84] Tipo ADC =1
+2019-01-09 11:29:05,888: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:29:05,947: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:29:05,948: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:29:05,951: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:30:14,710: [ERROR:554] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-09 11:30:20,688: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:30:20,689: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:30:20,690: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:30:20,690: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:30:20,691: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:30:20,691: [ INFO:84] Tipo ADC =1
+2019-01-09 11:30:20,691: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:30:20,692: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:30:20,692: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:30:20,692: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:34:30,817: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:34:30,831: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:34:30,832: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:34:30,832: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:34:30,878: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:34:30,879: [ INFO:84] Tipo ADC =1
+2019-01-09 11:34:31,078: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:34:31,139: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:34:31,140: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:34:31,168: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:35:18,974: [ INFO:550] Busqueda finalizada.
+2019-01-09 11:35:18,988: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 11:35:18,989: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 11:35:23,191: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:35:23,192: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:35:23,192: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:35:23,192: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:35:23,192: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:35:23,193: [ INFO:84] Tipo ADC =1
+2019-01-09 11:35:23,193: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:35:23,193: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:35:23,194: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 11:35:23,194: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:35:49,055: [ERROR:554] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-09 11:48:34,218: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:48:34,231: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:48:34,232: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:48:34,232: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:48:34,237: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:48:34,238: [ INFO:84] Tipo ADC =1
+2019-01-09 11:48:34,371: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:48:34,427: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:48:34,428: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:48:34,430: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:49:30,823: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:49:30,837: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:49:30,837: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:49:30,838: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:49:30,842: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:49:30,843: [ INFO:84] Tipo ADC =1
+2019-01-09 11:49:30,978: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:49:31,036: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:49:31,037: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:49:31,040: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:50:36,997: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:50:37,011: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:50:37,012: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:50:37,012: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:50:37,016: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:50:37,017: [ INFO:84] Tipo ADC =1
+2019-01-09 11:50:37,145: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:50:37,200: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:50:37,201: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:50:37,203: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:50:53,592: [ERROR:554] Error al realizar busqueda La conversión especificada no es válida.
+2019-01-09 11:52:04,979: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:52:04,981: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:52:04,981: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:52:04,981: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:52:04,981: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:52:04,982: [ INFO:84] Tipo ADC =1
+2019-01-09 11:52:04,982: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:52:04,982: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:52:04,983: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:52:04,983: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:53:47,520: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:53:47,533: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:53:47,534: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:53:47,534: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:53:47,538: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:53:47,539: [ INFO:84] Tipo ADC =1
+2019-01-09 11:53:47,674: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:53:47,733: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:53:47,734: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:53:47,736: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:55:28,605: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:55:28,620: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:55:28,620: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:55:28,621: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:55:28,625: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:55:28,626: [ INFO:84] Tipo ADC =1
+2019-01-09 11:55:28,755: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:55:28,810: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:55:28,811: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:55:28,813: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:55:52,306: [ERROR:554] Error al realizar busqueda ADC_NUMERO
+2019-01-09 11:55:57,882: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:55:57,883: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:55:57,883: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:55:57,883: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:55:57,883: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:55:57,884: [ INFO:84] Tipo ADC =1
+2019-01-09 11:55:57,884: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:55:57,884: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:55:57,885: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:55:57,885: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:56:35,903: [ INFO:550] Busqueda finalizada.
+2019-01-09 11:56:36,081: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 11:56:36,081: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [], Lista Hitos Exitosa
+2019-01-09 11:56:40,030: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:56:40,030: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:56:40,031: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:56:40,031: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:56:40,031: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:56:40,032: [ INFO:84] Tipo ADC =1
+2019-01-09 11:56:40,032: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:56:40,032: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:56:40,032: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:56:40,033: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:58:33,215: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 11:58:33,230: [ INFO:53] Llamada a GetEntidad
+2019-01-09 11:58:33,230: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 11:58:33,230: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 11:58:33,234: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 11:58:33,235: [ INFO:84] Tipo ADC =1
+2019-01-09 11:58:33,370: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 164
+2019-01-09 11:58:33,445: [ INFO:594] Busqueda finalizada.
+2019-01-09 11:58:33,446: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 164
+2019-01-09 11:58:33,449: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 11:58:50,744: [ INFO:550] Busqueda finalizada.
+2019-01-09 11:58:50,749: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null}], Lista Hitos Exitosa
+2019-01-09 11:58:50,750: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null},{"IdFiscalizacion":0,"IdADC":49202,"FolioFiscalizacion":0,"FolioADC":164,"FechaCreacionADC":"2018-05-10T13:10:44.45","FechaAudiencia":"2018-05-14T00:00:00","Estados":null}], Lista Hitos Exitosa
+2019-01-09 12:07:26,011: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:07:26,024: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:07:26,025: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:07:26,025: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:07:26,029: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:07:26,030: [ INFO:84] Tipo ADC =1
+2019-01-09 12:07:26,153: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:07:26,213: [ INFO:594] Busqueda finalizada.
+2019-01-09 12:07:26,214: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:07:26,217: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:07:28,351: [ INFO:550] Busqueda finalizada.
+2019-01-09 12:07:28,356: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]}], Lista Hitos Exitosa
+2019-01-09 12:07:28,356: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]}], Lista Hitos Exitosa
+2019-01-09 12:11:39,592: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:11:39,592: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:11:39,593: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:11:39,607: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:11:39,607: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:11:39,608: [ INFO:84] Tipo ADC =1
+2019-01-09 12:11:39,608: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:11:39,608: [ INFO:594] Busqueda finalizada.
+2019-01-09 12:11:39,609: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:11:39,609: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:15:11,455: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:15:11,470: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:15:11,471: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:15:11,471: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:15:11,475: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:15:11,476: [ INFO:84] Tipo ADC =1
+2019-01-09 12:15:11,607: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:15:11,668: [ INFO:594] Busqueda finalizada.
+2019-01-09 12:15:11,669: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:15:11,672: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:16:53,431: [ INFO:550] Busqueda finalizada.
+2019-01-09 12:17:06,965: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]}], Lista Hitos Exitosa
+2019-01-09 12:17:06,966: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]},{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":0},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3}]}], Lista Hitos Exitosa
+2019-01-09 12:22:58,430: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:22:58,444: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:22:58,444: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:22:58,445: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:22:58,449: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:22:58,450: [ INFO:84] Tipo ADC =1
+2019-01-09 12:22:58,578: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:22:58,633: [ INFO:594] Busqueda finalizada.
+2019-01-09 12:22:58,634: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:22:58,636: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:28:38,490: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:28:38,504: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:28:38,505: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:28:38,505: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:28:38,510: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:28:38,511: [ INFO:84] Tipo ADC =1
+2019-01-09 12:28:38,634: [ INFO:566] Metodo DUMMY ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:28:38,689: [ INFO:594] Busqueda finalizada.
+2019-01-09 12:28:38,690: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:28:38,692: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:28:41,290: [ INFO:550] Busqueda finalizada.
+2019-01-09 12:28:41,294: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:28:41,294: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:46:56,674: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:46:56,689: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:46:56,689: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:46:56,690: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:46:56,694: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:46:56,818: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:46:56,824: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:47:01,995: [ INFO:550] Busqueda finalizada.
+2019-01-09 12:47:02,051: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:47:02,052: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:47:24,133: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:47:24,135: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:47:24,135: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:47:24,135: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:47:24,135: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:47:24,136: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:47:24,136: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:48:12,309: [ INFO:550] Busqueda finalizada.
+2019-01-09 12:50:27,053: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:50:28,983: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:50:44,036: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:50:44,038: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:50:44,038: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:50:44,038: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:50:44,039: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:50:44,039: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:50:44,039: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 12:50:53,802: [ INFO:550] Busqueda finalizada.
+2019-01-09 12:51:16,741: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:51:36,779: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 12:52:24,710: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 12:52:24,710: [ INFO:53] Llamada a GetEntidad
+2019-01-09 12:52:24,710: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 12:52:24,710: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 12:52:24,711: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 12:52:24,711: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 12:52:24,711: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 13:20:50,376: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:20:50,393: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:20:50,394: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:20:50,394: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:20:50,440: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:20:50,441: [ INFO:84] Tipo ADC =1
+2019-01-09 13:20:51,137: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:20:51,140: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:20:51,529: [ INFO:138] Busqueda completada
+2019-01-09 13:20:51,597: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:20:51,597: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:22:09,052: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:22:09,053: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:22:09,053: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:22:09,053: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:22:09,054: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:22:09,054: [ INFO:84] Tipo ADC =1
+2019-01-09 13:22:09,168: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:22:09,168: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:22:09,195: [ INFO:138] Busqueda completada
+2019-01-09 13:22:09,203: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:22:09,203: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:14,667: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:24:14,668: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:24:14,668: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:24:14,669: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:24:14,669: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:24:14,669: [ INFO:84] Tipo ADC =1
+2019-01-09 13:24:14,805: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:24:14,806: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:24:14,830: [ INFO:138] Busqueda completada
+2019-01-09 13:24:14,838: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:14,839: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:16,272: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:24:16,272: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:24:16,272: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:24:16,273: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:24:16,273: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:24:16,273: [ INFO:84] Tipo ADC =1
+2019-01-09 13:24:16,385: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:24:16,385: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:24:16,412: [ INFO:138] Busqueda completada
+2019-01-09 13:24:16,419: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:16,420: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:17,332: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:24:17,333: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:24:17,333: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:24:17,333: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:24:17,333: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:24:17,334: [ INFO:84] Tipo ADC =1
+2019-01-09 13:24:17,449: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:24:17,449: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:24:17,472: [ INFO:138] Busqueda completada
+2019-01-09 13:24:17,478: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:17,479: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:18,341: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:24:18,341: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:24:18,342: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:24:18,342: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:24:18,342: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:24:18,342: [ INFO:84] Tipo ADC =1
+2019-01-09 13:24:18,460: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:24:18,461: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:24:18,483: [ INFO:138] Busqueda completada
+2019-01-09 13:24:18,489: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:18,489: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:41,638: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:24:41,639: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:24:41,639: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:24:41,639: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:24:41,640: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:24:41,640: [ INFO:84] Tipo ADC =1
+2019-01-09 13:24:48,053: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:24:48,054: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:24:48,075: [ INFO:138] Busqueda completada
+2019-01-09 13:24:51,375: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:24:51,376: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:25:45,492: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:25:45,493: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:25:45,493: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:25:45,493: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:25:45,494: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:25:45,494: [ INFO:84] Tipo ADC =1
+2019-01-09 13:25:48,136: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:25:48,136: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:25:48,161: [ INFO:138] Busqueda completada
+2019-01-09 13:25:48,167: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:25:48,167: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:26:03,392: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:26:03,393: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:26:03,393: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:26:03,393: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:26:03,393: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:26:03,393: [ INFO:84] Tipo ADC =1
+2019-01-09 13:26:05,789: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:26:05,789: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:26:05,811: [ INFO:138] Busqueda completada
+2019-01-09 13:26:05,818: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:26:05,818: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:26:29,741: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:26:29,741: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:26:29,742: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:26:29,742: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:26:29,742: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:26:29,743: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de ADC!
+2019-01-09 13:26:29,743: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de ADC!
+2019-01-09 13:26:35,067: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:26:35,068: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:26:35,068: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:26:35,068: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:26:35,068: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:26:35,069: [ INFO:84] Tipo ADC =1
+2019-01-09 13:26:37,785: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 08004562
+2019-01-09 13:26:37,786: [ INFO:114] Inicia busqueda de actas
+2019-01-09 13:26:37,810: [ INFO:138] Busqueda completada
+2019-01-09 13:26:37,816: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:26:37,817: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":45885,"NroExpedienteRol":18084,"NumeroFiscalizacion":"1808148","FechaDenuncia":"2018-01-06T00:00:00","FechaAudiencia":"2018-01-12T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"JUAN MARIO ARANCIBIA PEREZ","Oficina":{"IdOficina":29,"NombreOficina":"Arauco"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":"_ADC_08004562_09022018120813.pdf"}},"Proceso":null,"Incumplimientos":[]}], Actas de denuncia exitosas
+2019-01-09 13:27:22,211: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:27:22,212: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:27:22,212: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:27:22,212: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:27:22,213: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 13:27:22,215: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 86535
+2019-01-09 13:27:22,216: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 13:27:24,623: [ INFO:550] Busqueda finalizada.
+2019-01-09 13:27:24,634: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 13:27:24,634: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":374,"FolioFiscalizacion":0,"FolioADC":86535,"FechaCreacionADC":"2014-07-01T00:35:07.23","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 13:52:25,298: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:52:25,316: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:52:25,316: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:52:25,316: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:52:26,169: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-09 13:52:26,172: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-09 13:55:03,820: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:55:03,820: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:55:03,821: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:55:03,821: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:55:04,031: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-09 13:55:04,032: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-09 13:55:05,576: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 13:55:05,576: [ INFO:53] Llamada a GetEntidad
+2019-01-09 13:55:05,577: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 13:55:05,577: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 13:55:05,834: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-09 13:55:05,834: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-01-09 14:00:30,000: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 14:00:30,000: [ INFO:53] Llamada a GetEntidad
+2019-01-09 14:00:30,000: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 14:00:30,001: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 14:00:30,005: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 14:00:30,008: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 14:00:30,010: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 14:00:31,488: [ERROR:559] Error al realizar busqueda Se ha deshabilitado el acceso de red para el administrador de transacciones distribuidas (MSDTC). Habilite DTC para el acceso de red en la configuración de seguridad de MSDTC utilizando la herramienta administrativa Servicios de componentes.
+2019-01-09 14:01:34,358: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 14:01:34,359: [ INFO:53] Llamada a GetEntidad
+2019-01-09 14:01:34,359: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 14:01:34,359: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 14:01:34,359: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 14:01:34,360: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 14:01:34,360: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 14:07:07,480: [ERROR:559] Error al realizar busqueda Se ha deshabilitado el acceso de red para el administrador de transacciones distribuidas (MSDTC). Habilite DTC para el acceso de red en la configuración de seguridad de MSDTC utilizando la herramienta administrativa Servicios de componentes.
+2019-01-09 14:07:09,047: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 14:07:09,047: [ INFO:53] Llamada a GetEntidad
+2019-01-09 14:07:09,047: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 14:07:09,047: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 14:07:09,048: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 14:07:09,048: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 14:07:09,048: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 14:07:39,557: [ERROR:559] Error al realizar busqueda Se ha deshabilitado el acceso de red para el administrador de transacciones distribuidas (MSDTC). Habilite DTC para el acceso de red en la configuración de seguridad de MSDTC utilizando la herramienta administrativa Servicios de componentes.
+2019-01-09 14:07:43,559: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 14:07:43,560: [ INFO:53] Llamada a GetEntidad
+2019-01-09 14:07:43,560: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 14:07:43,560: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 14:07:43,560: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 14:07:43,561: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 14:07:43,561: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 14:09:07,848: [ERROR:559] Error al realizar busqueda Se ha deshabilitado el acceso de red para el administrador de transacciones distribuidas (MSDTC). Habilite DTC para el acceso de red en la configuración de seguridad de MSDTC utilizando la herramienta administrativa Servicios de componentes.
+2019-01-09 14:09:12,557: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 14:09:12,558: [ INFO:53] Llamada a GetEntidad
+2019-01-09 14:09:12,558: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 14:09:12,558: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 14:09:12,559: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 14:09:12,559: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 14:09:12,559: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 14:09:45,996: [ERROR:559] Error al realizar busqueda Se anuló la transacción.
+2019-01-09 14:09:50,029: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 14:09:50,030: [ INFO:53] Llamada a GetEntidad
+2019-01-09 14:09:50,030: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 14:09:50,030: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 14:09:50,031: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 14:09:50,031: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 14:09:50,031: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 17:07:51,571: [ERROR:559] Error al realizar busqueda Se ha deshabilitado el acceso de red para el administrador de transacciones distribuidas (MSDTC). Habilite DTC para el acceso de red en la configuración de seguridad de MSDTC utilizando la herramienta administrativa Servicios de componentes.
+2019-01-09 17:07:57,297: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 17:07:57,298: [ INFO:53] Llamada a GetEntidad
+2019-01-09 17:07:57,298: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 17:07:57,298: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 17:07:57,298: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 17:07:57,299: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 17:07:57,299: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 17:08:35,277: [ERROR:559] Error al realizar busqueda Se ha deshabilitado el acceso de red para el administrador de transacciones distribuidas (MSDTC). Habilite DTC para el acceso de red en la configuración de seguridad de MSDTC utilizando la herramienta administrativa Servicios de componentes.
+2019-01-09 17:46:04,381: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 17:46:04,405: [ INFO:53] Llamada a GetEntidad
+2019-01-09 17:46:04,406: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 17:46:04,407: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 17:46:04,412: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 17:46:04,572: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 17:46:04,580: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 17:46:05,884: [ERROR:559] Error al realizar busqueda Se ha deshabilitado el acceso de red para el administrador de transacciones distribuidas (MSDTC). Habilite DTC para el acceso de red en la configuración de seguridad de MSDTC utilizando la herramienta administrativa Servicios de componentes.
+2019-01-09 17:46:39,410: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 17:46:39,411: [ INFO:53] Llamada a GetEntidad
+2019-01-09 17:46:39,411: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 17:46:39,412: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 17:46:39,412: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 17:46:48,003: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 17:46:49,831: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 18:27:21,326: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 18:27:21,346: [ INFO:53] Llamada a GetEntidad
+2019-01-09 18:27:21,347: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 18:27:21,347: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 18:27:21,352: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 18:27:25,450: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 18:27:25,456: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 18:28:26,065: [ INFO:555] Busqueda finalizada.
+2019-01-09 18:29:29,990: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":0,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 18:29:29,991: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":0,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 18:31:07,478: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 18:31:07,500: [ INFO:53] Llamada a GetEntidad
+2019-01-09 18:31:07,501: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 18:31:07,502: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 18:31:07,508: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 18:31:13,747: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 18:31:15,033: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 18:32:13,211: [ INFO:555] Busqueda finalizada.
+2019-01-09 18:33:01,172: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 18:33:01,189: [ INFO:53] Llamada a GetEntidad
+2019-01-09 18:33:01,190: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 18:33:01,190: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 18:33:01,195: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 18:33:04,020: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 18:33:04,026: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 18:38:57,592: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 18:38:57,614: [ INFO:53] Llamada a GetEntidad
+2019-01-09 18:38:57,615: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 18:38:57,616: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 18:38:57,624: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 18:39:00,549: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 18:39:00,555: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 18:40:59,538: [ INFO:50] Inicio de metodo GetPrincipal
+2019-01-09 18:40:59,555: [ INFO:53] Llamada a GetEntidad
+2019-01-09 18:40:59,556: [ INFO:66] Inicio de metodo GetEntidad
+2019-01-09 18:40:59,556: [ INFO:69] Llamada a los tipos de metodos
+2019-01-09 18:40:59,561: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-01-09 18:41:01,993: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2110000051
+2019-01-09 18:41:02,000: [ INFO:532] Inicio de busqueda Hitos.
+2019-01-09 18:41:15,785: [ INFO:555] Busqueda finalizada.
+2019-01-09 18:41:15,910: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":1110000052,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
+2019-01-09 18:41:15,910: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":181129527,"IdADC":375,"FolioFiscalizacion":1110000052,"FolioADC":2110000051,"FechaCreacionADC":"2014-07-01T00:52:35.123","FechaAudiencia":"2014-07-01T00:00:00","Estados":[{"IdEstadoSancionatorio":100,"EstadoSancionatorio":"Denuncia (si es SAG u otra Autoridad) [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":1},{"IdEstadoSancionatorio":101,"EstadoSancionatorio":"Audiencia de Prueba con comparecencia/descargo por escrito [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":2},{"IdEstadoSancionatorio":102,"EstadoSancionatorio":"Resolución Director Regional [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":3},{"IdEstadoSancionatorio":103,"EstadoSancionatorio":"Notificación Resolución / Sentencia. [CF]","FechaActualizacion":"2014-07-01T00:00:00","Orden":4}]}], Lista Hitos Exitosa
