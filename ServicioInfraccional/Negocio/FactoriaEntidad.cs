@@ -92,7 +92,7 @@ namespace ServicioInfraccional.Negocio
                                 // Obtencion de fiscalizacion desde el sistema de fiscalizacion
                                 ActaDenunciaCitacionDetalle fisca = _infraccionalComposite.InfraccionalNegocio.ObtenerADCdetalleSegunFiscalizacion(Parametros.NumeroFiscalizacion).First();
 
-                                actas = _infraccionalComposite.InfraccionalNegocio.ObtenerActasSegunFiscalizacion(fisca.folio);
+                                actas = _infraccionalComposite.InfraccionalNegocio.ObtenerActasSegunFiscalizacion(Parametros.NumeroFiscalizacion);
 
                                 incumplimientos = _infraccionalComposite.FiscalizacionNegocio.ObtenerIncumplimientos(fisca.idchecklist.ToString());
 
