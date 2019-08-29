@@ -73,6 +73,10 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="Utilitarios, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BDU - ServicioAutenticacion\ServicioAutenticacion\bin\Debug\Utilitarios.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ServicioInfraccional.svc" />
@@ -115,10 +119,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Utilitarios\Utilitarios\Utilitarios.csproj">
-      <Project>{86060a0f-7eeb-405c-966a-c80d3f8f4b25}</Project>
-      <Name>Utilitarios</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Infraccional.Negocio\Infraccional.Negocio.csproj">
       <Project>{c8121eb5-a87c-48b7-8fde-3471fa1a932a}</Project>
       <Name>Infraccional.Negocio</Name>
@@ -139,7 +139,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>61638</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

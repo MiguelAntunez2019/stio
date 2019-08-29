@@ -48,6 +48,10 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="Utilitarios, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\BDU - ServicioAutenticacion\ServicioAutenticacion\bin\Debug\Utilitarios.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Infraccional\Composite\InfraccionalComposite.cs" />
@@ -59,10 +63,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Utilitarios\Utilitarios\Utilitarios.csproj">
-      <Project>{86060a0f-7eeb-405c-966a-c80d3f8f4b25}</Project>
-      <Name>Utilitarios</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Infraccional.AccesoDatos\Infraccional.AccesoDatos.csproj">
       <Project>{d15bcd3d-3736-4176-98ae-ae8d29875a9c}</Project>
       <Name>Infraccional.AccesoDatos</Name>
