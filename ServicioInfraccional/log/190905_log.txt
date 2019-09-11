@@ -1,0 +1,82 @@
+2019-09-05 10:34:39,872: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 10:34:39,922: [ INFO:53] Llamada a GetEntidad
+2019-09-05 10:34:39,923: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 10:34:39,923: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 10:45:42,552: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 10:45:42,712: [ INFO:53] Llamada a GetEntidad
+2019-09-05 10:45:42,713: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 10:45:42,713: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 12:30:48,569: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-09-05 12:30:48,602: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-09-05 12:30:58,250: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 12:30:58,251: [ INFO:53] Llamada a GetEntidad
+2019-09-05 12:30:58,251: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 12:30:58,251: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 12:31:54,317: [ INFO:73] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2019-09-05 12:31:54,318: [ INFO:55] Respuesta de la entidad: SUCCESS_INSERT, , Acta registrada existoamente
+2019-09-05 15:17:53,219: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:17:53,272: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:17:53,273: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:17:53,273: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:17:53,280: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:17:53,282: [ INFO:84] Tipo ADC =1
+2019-09-05 15:18:31,572: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:18:31,573: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:18:31,574: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:18:31,574: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:18:31,574: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:18:31,574: [ INFO:84] Tipo ADC =1
+2019-09-05 15:20:59,183: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:20:59,183: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:20:59,184: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:20:59,184: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:20:59,184: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:20:59,185: [ INFO:84] Tipo ADC =1
+2019-09-05 15:21:02,284: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 191348920
+2019-09-05 15:21:03,918: [ INFO:114] Inicia busqueda de actas
+2019-09-05 15:21:03,982: [ INFO:138] Busqueda completada
+2019-09-05 15:21:03,993: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-05 15:21:03,993: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-05 15:22:15,695: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:22:15,726: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:22:15,727: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:22:15,727: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:22:15,792: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:22:15,794: [ INFO:84] Tipo ADC =1
+2019-09-05 15:22:20,879: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 180119746
+2019-09-05 15:22:39,854: [ INFO:114] Inicia busqueda de actas
+2019-09-05 15:22:39,919: [ INFO:138] Busqueda completada
+2019-09-05 15:22:39,928: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-05 15:22:39,929: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-05 15:22:42,662: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:22:42,662: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:22:42,663: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:22:42,663: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:22:42,663: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:22:42,664: [ INFO:84] Tipo ADC =1
+2019-09-05 15:26:16,379: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:26:16,415: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:26:16,416: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:26:16,416: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:26:16,423: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:26:16,424: [ INFO:84] Tipo ADC =1
+2019-09-05 15:26:29,523: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 0101023
+2019-09-05 15:26:36,646: [ INFO:114] Inicia busqueda de actas
+2019-09-05 15:27:10,363: [ INFO:138] Busqueda completada
+2019-09-05 15:27:10,375: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-05 15:27:10,375: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-05 15:34:49,742: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:34:49,783: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:34:49,783: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:34:49,784: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:34:49,789: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:34:49,790: [ INFO:84] Tipo ADC =1
+2019-09-05 15:36:55,803: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-05 15:36:55,804: [ INFO:53] Llamada a GetEntidad
+2019-09-05 15:36:55,804: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-05 15:36:55,804: [ INFO:69] Llamada a los tipos de metodos
+2019-09-05 15:36:55,805: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-05 15:37:37,029: [ INFO:73] <log4net.Error>Exception during StringFormat. See Internal Log.</log4net.Error>
+2019-09-05 15:37:43,577: [ INFO:55] <log4net.Error>Exception during StringFormat. See Internal Log.</log4net.Error>

@@ -91,9 +91,9 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
         // Obtener el folio de fiscalizacion desde fiscalizacion
                 
 
-        public List<ActaDenunciaCitacion> ObtenerActasSegunFiscalizacion(string idFiscalizacion)
+        public List<ActaDenunciaCitacion> ObtenerActasSegunFiscalizacion(string NroFiscalizacion)
         {
-            log.InfoFormat("Metodo ObtenerActasSegunFiscalizacion, Parametro: {0}", idFiscalizacion);
+            log.InfoFormat("Metodo ObtenerActasSegunFiscalizacion, Parametro: {0}", NroFiscalizacion);
 
             // Obtencion de fiscalizacion desde el sistema de fiscalizacion
             //ActaDenunciaCitacionDetalle fisca = ObtenerADCdetalleSegunFiscalizacion(idFiscalizacion).First();
@@ -131,7 +131,7 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
                                                                     INNER JOIN [SS_MAE_OFICINA] AS OFI ON USU.USR_COD_OFICINA = OFI.ID_OFICINA
                                                                     LEFT JOIN ss_neg_fiscalizacion AS SNFIS  ON ADC.ADC_NRO_FISCALIZACION = SNFIS.FIS_NUMERO
                                                                     LEFT JOIN SS_NEG_FIS_ADJUNTOS AS SNFISA ON SNFIS.FIS_ID = SNFISA.FIA_FIS_ID
-                                                                    WHERE( ADC.ADC_NRO_FISCALIZACION = CASE '{0}' WHEN  ' ' THEN ADC.ADC_NRO_FISCALIZACION ELSE '{0}' END)", idFiscalizacion);
+                                                                    WHERE( ADC.ADC_NRO_FISCALIZACION = CASE '{0}' WHEN  ' ' THEN ADC.ADC_NRO_FISCALIZACION ELSE '{0}' END)", NroFiscalizacion);
 
                     actas = _daoGenerico.ObtenerActasSegunIdFiscalizacion(QueryFiscalizacion);
                     trans.Complete();

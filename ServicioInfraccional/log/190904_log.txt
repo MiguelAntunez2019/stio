@@ -1,0 +1,142 @@
+2019-09-04 09:34:47,671: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:34:47,719: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:34:47,720: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:34:47,720: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:34:47,725: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:34:47,726: [ INFO:84] Tipo ADC =1
+2019-09-04 09:37:30,316: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:37:30,346: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:37:30,347: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:37:30,347: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:37:30,403: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:37:30,404: [ INFO:84] Tipo ADC =1
+2019-09-04 09:41:01,717: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:41:01,745: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:41:01,746: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:41:01,747: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:41:01,751: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:41:01,752: [ INFO:84] Tipo ADC =1
+2019-09-04 09:41:02,497: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 180119746
+2019-09-04 09:41:07,863: [ INFO:114] Inicia busqueda de actas
+2019-09-04 09:42:38,569: [ INFO:138] Busqueda completada
+2019-09-04 09:42:38,601: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-04 09:42:38,602: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de Fiscalización!
+2019-09-04 09:42:50,063: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:42:50,063: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:42:50,064: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:42:50,064: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:42:50,064: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:42:50,065: [ INFO:84] Tipo ADC =1
+2019-09-04 09:43:23,157: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:43:24,772: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:43:25,749: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:43:25,749: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:43:25,750: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:43:25,750: [ INFO:84] Tipo ADC =1
+2019-09-04 09:43:40,390: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:43:42,149: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:43:48,101: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:43:49,940: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:43:56,836: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:44:13,583: [ INFO:84] Tipo ADC =1
+2019-09-04 09:46:01,915: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:46:01,953: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:46:01,954: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:46:01,954: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:46:01,959: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:46:05,923: [ INFO:84] Tipo ADC =1
+2019-09-04 09:46:07,925: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 1160000233
+2019-09-04 09:46:12,913: [ INFO:114] Inicia busqueda de actas
+2019-09-04 09:46:13,019: [ INFO:138] Busqueda completada
+2019-09-04 09:46:13,062: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":63408,"NroExpedienteRol":1916200,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T00:00:00","FechaAudiencia":"2019-09-10T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]},{"IdADC":63434,"NroExpedienteRol":1916202,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T12:02:00","FechaAudiencia":"2019-09-10T09:15:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]}], Actas de denuncia exitosas
+2019-09-04 09:46:13,062: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":63408,"NroExpedienteRol":1916200,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T00:00:00","FechaAudiencia":"2019-09-10T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]},{"IdADC":63434,"NroExpedienteRol":1916202,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T12:02:00","FechaAudiencia":"2019-09-10T09:15:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]}], Actas de denuncia exitosas
+2019-09-04 09:46:28,621: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 09:46:28,622: [ INFO:53] Llamada a GetEntidad
+2019-09-04 09:46:28,622: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 09:46:28,622: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 09:46:28,623: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 09:46:28,623: [ INFO:84] Tipo ADC =1
+2019-09-04 09:46:31,182: [ INFO:96] Metodo ObtenerActasSegunFiscalizacion, Parametro: 1160000233
+2019-09-04 09:46:32,129: [ INFO:114] Inicia busqueda de actas
+2019-09-04 09:46:32,155: [ INFO:138] Busqueda completada
+2019-09-04 09:46:32,162: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":63408,"NroExpedienteRol":1916200,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T00:00:00","FechaAudiencia":"2019-09-10T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]},{"IdADC":63434,"NroExpedienteRol":1916202,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T12:02:00","FechaAudiencia":"2019-09-10T09:15:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]}], Actas de denuncia exitosas
+2019-09-04 09:46:32,163: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdADC":63408,"NroExpedienteRol":1916200,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T00:00:00","FechaAudiencia":"2019-09-10T00:00:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]},{"IdADC":63434,"NroExpedienteRol":1916202,"NumeroFiscalizacion":"1160000233","FechaDenuncia":"2019-09-02T12:02:00","FechaAudiencia":"2019-09-10T09:15:00","Usuario":{"RutUsuario":null,"NombreUsuario":"LUIS MARCELO SAEZ OYARCE","Oficina":{"IdOficina":82,"NombreOficina":"Chillán"}},"ActaDenunciaCItacionHistorico":null,"NegocioFiscalizacion":{"IdNegocioFisca":0,"FiscalizacionPDF":{"IdNegocioFiscaAdjunto":0,"NombrePDF":null}},"Proceso":null,"Incumplimientos":[{"Identificador":1038,"Opcion":{"Identificador":86,"Descripcion":"Las etiquetas de los productos revisados no cumplen con la normativa vigente."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}},{"Identificador":1039,"Opcion":{"Identificador":90,"Descripcion":"Se encuentra a la venta bebidas alcohólicas etiquetadas con Denominaciones o Indicaciones Geográficas protegidas según Acuerdos Internacionales suscritos por Chile, con orígenes distintos a los establecidos."},"Pregunta":{"Identificador":264,"Descripcion":"Incumplimientos distribuidores / otras instancias"}}]}], Actas de denuncia exitosas
+2019-09-04 10:49:43,068: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 10:49:43,117: [ INFO:53] Llamada a GetEntidad
+2019-09-04 10:49:43,118: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 10:49:43,118: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 10:49:43,125: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 10:50:26,308: [ INFO:73] <log4net.Error>Exception during StringFormat. See Internal Log.</log4net.Error>
+2019-09-04 10:50:30,672: [ INFO:55] <log4net.Error>Exception during StringFormat. See Internal Log.</log4net.Error>
+2019-09-04 10:50:58,469: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 10:50:58,498: [ INFO:53] Llamada a GetEntidad
+2019-09-04 10:50:58,499: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 10:50:58,499: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 10:50:58,580: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 10:51:12,445: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de ADC!
+2019-09-04 10:51:12,448: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de ADC!
+2019-09-04 10:51:16,064: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 10:51:16,065: [ INFO:53] Llamada a GetEntidad
+2019-09-04 10:51:16,065: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 10:51:16,065: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 10:51:16,065: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 10:52:07,218: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de ADC!
+2019-09-04 10:52:07,242: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Debe Ingresar Número de ADC!
+2019-09-04 10:52:12,368: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 10:52:12,369: [ INFO:53] Llamada a GetEntidad
+2019-09-04 10:52:12,369: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 10:52:12,369: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 10:52:12,370: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 10:54:33,555: [ INFO:73] <log4net.Error>Exception during StringFormat. See Internal Log.</log4net.Error>
+2019-09-04 10:54:34,821: [ INFO:55] <log4net.Error>Exception during StringFormat. See Internal Log.</log4net.Error>
+2019-09-04 10:57:00,768: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 10:57:00,796: [ INFO:53] Llamada a GetEntidad
+2019-09-04 10:57:00,797: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 10:57:00,797: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 10:57:00,877: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 10:57:19,583: [ INFO:73] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-09-04 10:57:19,586: [ INFO:55] Respuesta de la entidad: ERROR_LIST, , Error al obtener las Bitacoras.
+2019-09-04 10:57:36,599: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 10:57:36,599: [ INFO:53] Llamada a GetEntidad
+2019-09-04 10:57:36,599: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 10:57:36,600: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 10:57:36,600: [ INFO:61] Inicio del metodo InfraccionalRead
+2019-09-04 10:57:39,176: [ INFO:522] Metodo ObtenerADCHitos, Parametro: 2130000951
+2019-09-04 10:57:39,188: [ INFO:532] Inicio de busqueda Hitos.
+2019-09-04 10:57:39,383: [ INFO:555] Busqueda finalizada.
+2019-09-04 10:57:39,394: [ INFO:73] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":0,"FolioFiscalizacion":0,"FolioADC":0,"FechaCreacionADC":"0001-01-01T00:00:00","FechaAudiencia":"0001-01-01T00:00:00","Estados":null}], Lista Hitos Exitosa
+2019-09-04 10:57:39,395: [ INFO:55] Respuesta de la entidad: SUCCESS_LIST, [{"IdFiscalizacion":0,"IdADC":0,"FolioFiscalizacion":0,"FolioADC":0,"FechaCreacionADC":"0001-01-01T00:00:00","FechaAudiencia":"0001-01-01T00:00:00","Estados":null}], Lista Hitos Exitosa
+2019-09-04 17:05:35,509: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 17:05:35,562: [ INFO:53] Llamada a GetEntidad
+2019-09-04 17:05:35,563: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 17:05:35,563: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 17:05:43,120: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El usuario con email jesus.barboza@sag.gob.cl no existe en el sistema sancionatorio como inspector fiscalizador
+2019-09-04 17:05:43,122: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El usuario con email jesus.barboza@sag.gob.cl no existe en el sistema sancionatorio como inspector fiscalizador
+2019-09-04 17:06:08,196: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 17:06:08,196: [ INFO:53] Llamada a GetEntidad
+2019-09-04 17:06:08,196: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 17:06:08,197: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 17:09:34,353: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 17:09:34,392: [ INFO:53] Llamada a GetEntidad
+2019-09-04 17:09:34,393: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 17:09:34,394: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 17:10:00,785: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-09-04 17:10:00,787: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-09-04 17:10:44,070: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 17:10:44,071: [ INFO:53] Llamada a GetEntidad
+2019-09-04 17:10:44,071: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 17:10:44,071: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 17:11:31,443: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-09-04 17:11:31,443: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-09-04 17:11:34,108: [ INFO:50] Inicio de metodo GetPrincipal
+2019-09-04 17:11:34,108: [ INFO:53] Llamada a GetEntidad
+2019-09-04 17:11:34,108: [ INFO:66] Inicio de metodo GetEntidad
+2019-09-04 17:11:34,109: [ INFO:69] Llamada a los tipos de metodos
+2019-09-04 17:26:19,308: [ INFO:73] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index
+2019-09-04 17:26:19,309: [ INFO:55] Respuesta de la entidad: ERROR_INSERT, , Error al realizar insercion: El índice estaba fuera del intervalo. Debe ser un valor no negativo e inferior al tamaño de la colección.
+Nombre del parámetro: index

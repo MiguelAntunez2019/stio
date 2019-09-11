@@ -92,7 +92,7 @@ namespace ServicioInfraccional.Negocio
                                 // Obtencion de fiscalizacion desde el sistema de fiscalizacion
                                 ActaDenunciaCitacionDetalle fisca = _infraccionalComposite.InfraccionalNegocio.ObtenerADCdetalleSegunFiscalizacion(Parametros.NumeroFiscalizacion).First();
 
-                                actas = _infraccionalComposite.InfraccionalNegocio.ObtenerActasSegunFiscalizacion(Parametros.NumeroFiscalizacion);
+                                actas = _infraccionalComposite.InfraccionalNegocio.ObtenerActasSegunFiscalizacion(fisca.folio);
 
                                 incumplimientos = _infraccionalComposite.FiscalizacionNegocio.ObtenerIncumplimientos(fisca.idchecklist.ToString());
 
@@ -249,7 +249,7 @@ namespace ServicioInfraccional.Negocio
                         }
                         else
                         {
-                            return respuesta = Respuesta.RespuestaPersonalizado("Debe Validar los Vaores en el JSON!", "ERROR_LIST");
+                            return respuesta = Respuesta.RespuestaPersonalizado("Debe Validar los Valores en el JSON!", "ERROR_LIST");
                         }
                     }
                 }
