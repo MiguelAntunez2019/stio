@@ -202,6 +202,7 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
             {
                 Timeout = new TimeSpan(0, 5, 0)
             };
+            
             using (TransactionScope trans = new TransactionScope(TransactionScopeOption.Required, opciones))
             {
                 try
@@ -225,7 +226,7 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
                                                               LEFT JOIN SS_MAE_PROCESO         AS PRO  ON  A.ADC_TIPO_PROCESO =    PRO.PCS_COD_PROCESO 
 	                                                          LEFT JOIN SS_ADM_USUARIOS        AS  U   ON  A.ADC_USUARIO_CREADOR = U.USR_RUT
                                                
-                                                             WHERE( A.ADC_NUMERO= CASE '{0}' WHEN  ' ' THEN A.ADC_NUMERO ELSE '{0}' END)", IdentificadorFiscalizacion);
+                                                             WHERE( A.ADC_ID= CASE '{0}' WHEN  ' ' THEN A.ADC_ID ELSE '{0}' END)", IdentificadorFiscalizacion);
 
 
                     bitacoras = _daoGenerico.ObtenerBitacorasSegunADC(QueryBitacoras);
@@ -456,6 +457,8 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
 
             return registro;
         }
+
+
 
         public List<ActaDenunciaCitacionDetalle> ObtenerADCdetalleSegunFiscalizacion(string IdentificadorFiscalizacion)
         {

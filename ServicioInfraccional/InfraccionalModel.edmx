@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="sancionatorioModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="SS_ADM_USUARIOS">
+          <Key>
+            <PropertyRef Name="USR_RUT" />
+          </Key>
+          <Property Name="USR_RUT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="USR_NOMBRE" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="USR_LOGIN" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="USR_PASSWORD" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="USR_EMAIL" Type="varchar" MaxLength="80" Nullable="false" />
+          <Property Name="USR_ACTIVO" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="USR_MENUUSUARIO" Type="int" />
+          <Property Name="USR_COD_COMUNA" Type="nvarchar" MaxLength="6" Nullable="false" />
+          <Property Name="USR_COD_OFICINA" Type="int" />
+          <Property Name="USR_COD_CARGO" Type="int" />
+        </EntityType>
+        <EntityType Name="SS_MAE_PROCESO">
+          <Key>
+            <PropertyRef Name="PCS_COD_PROCESO" />
+          </Key>
+          <Property Name="PCS_COD_PROCESO" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PCS_DES_PROCESO" Type="varchar" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC">
+          <Key>
+            <PropertyRef Name="ADC_ID" />
+          </Key>
+          <Property Name="ADC_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ADC_SISTEMA_ID" Type="int" Nullable="false" />
+          <Property Name="ADC_TIPO_PROCESO" Type="int" Nullable="false" />
+          <Property Name="ADC_COD_ENTIDAD" Type="int" Nullable="false" />
+          <Property Name="ADC_INFRACTOR" Type="int" Nullable="false" />
+          <Property Name="ADC_COD_INFRACCION" Type="int" />
+          <Property Name="ADC_ROL" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="ADC_NUMERO" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="ADC_COD_PIEFIRMA" Type="int" />
+          <Property Name="ADC_FECHA_AUDIENCIA" Type="datetime" />
+          <Property Name="ADC_TRANSPORTE" Type="varchar" MaxLength="100" />
+          <Property Name="ADC_DECLARACION" Type="varchar" MaxLength="1500" />
+          <Property Name="ADC_FECHA_CREACION" Type="datetime" Nullable="false" />
+          <Property Name="ADC_USUARIO_CREADOR" Type="int" Nullable="false" />
+          <Property Name="ADC_ULTIMA_MODIFICACION" Type="datetime" />
+          <Property Name="ADC_USUARIO_MODIFICADOR" Type="int" />
+          <Property Name="ADC_ID_SUBMATERIA" Type="int" />
+          <Property Name="ADC_FIN_ID" Type="int" />
+          <Property Name="ADC_FECHA_INGRESO" Type="datetime" />
+          <Property Name="ADC_PROCESO_FIN" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="ADC_RUT_INSPECTOR" Type="int" Nullable="false" />
+          <Property Name="ADC_RUT_SUSTANCIADOR" Type="int" />
+          <Property Name="ADC_OFICINA_USUARIO" Type="int" />
+          <Property Name="ADC_FECHA_DENUNCIA" Type="datetime" />
+          <Property Name="ADC_NRO_FISCALIZACION" Type="decimal" Precision="18" Scale="0" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC_HITO">
+          <Key>
+            <PropertyRef Name="ADH_COD" />
+          </Key>
+          <Property Name="ADH_COD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ADH_ADC_ID" Type="int" Nullable="false" />
+          <Property Name="ADH_COD_HITO" Type="int" Nullable="false" />
+          <Property Name="ADH_RUT_USUARIO" Type="int" Nullable="false" />
+          <Property Name="ADH_FECHA" Type="datetime" Nullable="false" />
+          <Property Name="ADH_NUM_RESOLUCION" Type="varchar" MaxLength="15" />
+          <Property Name="ADH_OBSERVACION" Type="varchar" MaxLength="500" />
+          <Property Name="ADH_FECHA_HITO" Type="datetime" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC_RESOLUCION">
+          <Key>
+            <PropertyRef Name="ADR_ID" />
+          </Key>
+          <Property Name="ADR_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ADR_USR_RUT" Type="int" Nullable="false" />
+          <Property Name="ADR_FECHA" Type="datetime" Nullable="false" />
+          <Property Name="ADR_FECHA_SIS" Type="datetime" Nullable="false" />
+          <Property Name="ADR_TIPO_ACC" Type="char" MaxLength="1" />
+          <Property Name="ADR_USR_RUT_ACC" Type="int" />
+          <Property Name="ADR_FECHA_ACC" Type="datetime" />
+          <Property Name="ADR_FECHA_SIS_ACC" Type="datetime" />
+          <Property Name="ADR_ADH_COD" Type="int" Nullable="false" />
+          <Property Name="ADR_TIPO_DECISION" Type="char" MaxLength="1" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC_SENTENCIA">
+          <Key>
+            <PropertyRef Name="ADS_ID" />
+          </Key>
+          <Property Name="ADS_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ADS_ADR_ID" Type="int" Nullable="false" />
+          <Property Name="ADS_COD_TIPO_SENTENCIA" Type="int" Nullable="false" />
+          <Property Name="ADS_COD_MEDIDA" Type="int" />
+          <Property Name="ADS_DIA_DURACION" Type="int" />
+          <Property Name="ADS_FECHA_INICIO" Type="datetime" />
+          <Property Name="ADS_FECHA_FIN" Type="datetime" />
+          <Property Name="ADS_OBSERVACION" Type="varchar" MaxLength="500" />
+          <Property Name="ADS_USR_RUT" Type="int" Nullable="false" />
+          <Property Name="ADS_FECHA_SISTEMA" Type="datetime" Nullable="false" />
+          <Property Name="ADS_TEL_ID" Type="int" />
+          <Property Name="ADS_TSU_ID" Type="int" />
+        </EntityType>
+        <EntityType Name="SS_NEG_INFRACTOR">
+          <Key>
+            <PropertyRef Name="IFR_COD" />
+          </Key>
+          <Property Name="IFR_COD_ACTIVIDAD" Type="int" />
+          <Property Name="IFR_COD" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IFR_TIPO_ID" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="IFR_IDENTIFICACION" Type="varchar" MaxLength="25" Nullable="false" />
+          <Property Name="IFR_TIPO_PERSONA" Type="char" MaxLength="1" Nullable="false" />
+          <Property Name="IFR_NOMBRES" Type="varchar" MaxLength="350" />
+          <Property Name="IFR_APELLIDO_PAT" Type="varchar" MaxLength="100" />
+          <Property Name="IFR_APELLIDO_MAT" Type="varchar" MaxLength="100" />
+          <Property Name="IFR_DOMICILIO" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="IFR_GENERO" Type="char" MaxLength="1" />
+          <Property Name="IFR_COD_COMUNA" Type="nvarchar" MaxLength="12" />
+          <Property Name="IFR_COD_PAIS" Type="int" />
+          <Property Name="IFR_REP_LEG_RUT" Type="varchar" MaxLength="12" />
+          <Property Name="IFR_REP_LEG_NOM" Type="varchar" MaxLength="200" />
+          <Property Name="IFR_FONO" Type="varchar" MaxLength="20" />
+          <Property Name="IFR_EMAIL" Type="varchar" MaxLength="300" />
+          <Property Name="IFR_DIR_POSTAL" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <Association Name="RefSS_ADM_USUARIOS26">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_HITO" Type="Self.SS_NEG_ADC_HITO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_HITO">
+              <PropertyRef Name="ADH_RUT_USUARIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_ADM_USUARIOS41">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_USUARIO_CREADOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_ADM_USUARIOS42">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_USR_RUT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_ADM_USUARIOS43">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_USUARIO_MODIFICADOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_MAE_PROCESO35">
+          <End Role="SS_MAE_PROCESO" Type="Self.SS_MAE_PROCESO" Multiplicity="1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_MAE_PROCESO">
+              <PropertyRef Name="PCS_COD_PROCESO" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_TIPO_PROCESO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_NEG_ADC24">
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_HITO" Type="Self.SS_NEG_ADC_HITO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_ID" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_HITO">
+              <PropertyRef Name="ADH_ADC_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_NEG_INFRACTOR36">
+          <End Role="SS_NEG_INFRACTOR" Type="Self.SS_NEG_INFRACTOR" Multiplicity="1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_INFRACTOR">
+              <PropertyRef Name="IFR_COD" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_INFRACTOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK3">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_COD_PIEFIRMA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK4">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_RUT_INSPECTOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK5">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_RUT_SUSTANCIADOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_USR_RUT_ACC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_SENTENCIA" Type="Self.SS_NEG_ADC_SENTENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_SENTENCIA">
+              <PropertyRef Name="ADS_USR_RUT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION">
+          <End Role="SS_NEG_ADC_HITO" Type="Self.SS_NEG_ADC_HITO" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_ADC_HITO">
+              <PropertyRef Name="ADH_COD" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_ADH_COD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1">
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_SENTENCIA" Type="Self.SS_NEG_ADC_SENTENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_ID" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_SENTENCIA">
+              <PropertyRef Name="ADS_ADR_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="sancionatorioModelStoreContainer">
+          <EntitySet Name="SS_ADM_USUARIOS" EntityType="Self.SS_ADM_USUARIOS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SS_MAE_PROCESO" EntityType="Self.SS_MAE_PROCESO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SS_NEG_ADC" EntityType="Self.SS_NEG_ADC" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SS_NEG_ADC_HITO" EntityType="Self.SS_NEG_ADC_HITO" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SS_NEG_ADC_RESOLUCION" EntityType="Self.SS_NEG_ADC_RESOLUCION" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SS_NEG_ADC_SENTENCIA" EntityType="Self.SS_NEG_ADC_SENTENCIA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SS_NEG_INFRACTOR" EntityType="Self.SS_NEG_INFRACTOR" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="RefSS_ADM_USUARIOS26" Association="Self.RefSS_ADM_USUARIOS26">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_HITO" EntitySet="SS_NEG_ADC_HITO" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_ADM_USUARIOS41" Association="Self.RefSS_ADM_USUARIOS41">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_ADM_USUARIOS42" Association="Self.RefSS_ADM_USUARIOS42">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_ADM_USUARIOS43" Association="Self.RefSS_ADM_USUARIOS43">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_MAE_PROCESO35" Association="Self.RefSS_MAE_PROCESO35">
+            <End Role="SS_MAE_PROCESO" EntitySet="SS_MAE_PROCESO" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_NEG_ADC24" Association="Self.RefSS_NEG_ADC24">
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+            <End Role="SS_NEG_ADC_HITO" EntitySet="SS_NEG_ADC_HITO" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_NEG_INFRACTOR36" Association="Self.RefSS_NEG_INFRACTOR36">
+            <End Role="SS_NEG_INFRACTOR" EntitySet="SS_NEG_INFRACTOR" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK3" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK3">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK4" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK4">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK5" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK5">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_SENTENCIA" EntitySet="SS_NEG_ADC_SENTENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION" Association="Self.SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION">
+            <End Role="SS_NEG_ADC_HITO" EntitySet="SS_NEG_ADC_HITO" />
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+          </AssociationSet>
+          <AssociationSet Name="SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1" Association="Self.SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1">
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+            <End Role="SS_NEG_ADC_SENTENCIA" EntitySet="SS_NEG_ADC_SENTENCIA" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="sancionatorioModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="SS_ADM_USUARIOS">
+          <Key>
+            <PropertyRef Name="USR_RUT" />
+          </Key>
+          <Property Name="USR_RUT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="USR_NOMBRE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USR_LOGIN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USR_PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USR_EMAIL" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="USR_ACTIVO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="USR_MENUUSUARIO" Type="Int32" />
+          <Property Name="USR_COD_COMUNA" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="USR_COD_OFICINA" Type="Int32" />
+          <Property Name="USR_COD_CARGO" Type="Int32" />
+          <NavigationProperty Name="SS_NEG_ADC_HITO" Relationship="Self.RefSS_ADM_USUARIOS26" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC_HITO" />
+          <NavigationProperty Name="SS_NEG_ADC" Relationship="Self.RefSS_ADM_USUARIOS41" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC" />
+          <NavigationProperty Name="SS_NEG_ADC_RESOLUCION" Relationship="Self.RefSS_ADM_USUARIOS42" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC_RESOLUCION" />
+          <NavigationProperty Name="SS_NEG_ADC1" Relationship="Self.RefSS_ADM_USUARIOS43" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC" />
+          <NavigationProperty Name="SS_NEG_ADC2" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK3" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC" />
+          <NavigationProperty Name="SS_NEG_ADC3" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK4" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC" />
+          <NavigationProperty Name="SS_NEG_ADC4" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK5" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC" />
+          <NavigationProperty Name="SS_NEG_ADC_RESOLUCION1" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC_RESOLUCION" />
+          <NavigationProperty Name="SS_NEG_ADC_SENTENCIA" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1" FromRole="SS_ADM_USUARIOS" ToRole="SS_NEG_ADC_SENTENCIA" />
+        </EntityType>
+        <EntityType Name="SS_MAE_PROCESO">
+          <Key>
+            <PropertyRef Name="PCS_COD_PROCESO" />
+          </Key>
+          <Property Name="PCS_COD_PROCESO" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PCS_DES_PROCESO" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SS_NEG_ADC" Relationship="Self.RefSS_MAE_PROCESO35" FromRole="SS_MAE_PROCESO" ToRole="SS_NEG_ADC" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC">
+          <Key>
+            <PropertyRef Name="ADC_ID" />
+          </Key>
+          <Property Name="ADC_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ADC_SISTEMA_ID" Type="Int32" Nullable="false" />
+          <Property Name="ADC_TIPO_PROCESO" Type="Int32" Nullable="false" />
+          <Property Name="ADC_COD_ENTIDAD" Type="Int32" Nullable="false" />
+          <Property Name="ADC_INFRACTOR" Type="Int32" Nullable="false" />
+          <Property Name="ADC_COD_INFRACCION" Type="Int32" />
+          <Property Name="ADC_ROL" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+          <Property Name="ADC_NUMERO" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="ADC_COD_PIEFIRMA" Type="Int32" />
+          <Property Name="ADC_FECHA_AUDIENCIA" Type="DateTime" Precision="3" />
+          <Property Name="ADC_TRANSPORTE" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="ADC_DECLARACION" Type="String" MaxLength="1500" FixedLength="false" Unicode="false" />
+          <Property Name="ADC_FECHA_CREACION" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ADC_USUARIO_CREADOR" Type="Int32" Nullable="false" />
+          <Property Name="ADC_ULTIMA_MODIFICACION" Type="DateTime" Precision="3" />
+          <Property Name="ADC_USUARIO_MODIFICADOR" Type="Int32" />
+          <Property Name="ADC_ID_SUBMATERIA" Type="Int32" />
+          <Property Name="ADC_FIN_ID" Type="Int32" />
+          <Property Name="ADC_FECHA_INGRESO" Type="DateTime" Precision="3" />
+          <Property Name="ADC_PROCESO_FIN" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="ADC_RUT_INSPECTOR" Type="Int32" Nullable="false" />
+          <Property Name="ADC_RUT_SUSTANCIADOR" Type="Int32" />
+          <Property Name="ADC_OFICINA_USUARIO" Type="Int32" />
+          <Property Name="ADC_FECHA_DENUNCIA" Type="DateTime" Precision="3" />
+          <Property Name="ADC_NRO_FISCALIZACION" Type="Decimal" Precision="18" Scale="0" />
+          <NavigationProperty Name="SS_ADM_USUARIOS" Relationship="Self.RefSS_ADM_USUARIOS41" FromRole="SS_NEG_ADC" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_ADM_USUARIOS1" Relationship="Self.RefSS_ADM_USUARIOS43" FromRole="SS_NEG_ADC" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_ADM_USUARIOS2" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK3" FromRole="SS_NEG_ADC" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_ADM_USUARIOS3" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK4" FromRole="SS_NEG_ADC" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_ADM_USUARIOS4" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK5" FromRole="SS_NEG_ADC" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_MAE_PROCESO" Relationship="Self.RefSS_MAE_PROCESO35" FromRole="SS_NEG_ADC" ToRole="SS_MAE_PROCESO" />
+          <NavigationProperty Name="SS_NEG_ADC_HITO" Relationship="Self.RefSS_NEG_ADC24" FromRole="SS_NEG_ADC" ToRole="SS_NEG_ADC_HITO" />
+          <NavigationProperty Name="SS_NEG_INFRACTOR" Relationship="sancionatorioModel.RefSS_NEG_INFRACTOR36" FromRole="SS_NEG_ADC" ToRole="SS_NEG_INFRACTOR" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC_HITO">
+          <Key>
+            <PropertyRef Name="ADH_COD" />
+          </Key>
+          <Property Name="ADH_COD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ADH_ADC_ID" Type="Int32" Nullable="false" />
+          <Property Name="ADH_COD_HITO" Type="Int32" Nullable="false" />
+          <Property Name="ADH_RUT_USUARIO" Type="Int32" Nullable="false" />
+          <Property Name="ADH_FECHA" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ADH_NUM_RESOLUCION" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="ADH_OBSERVACION" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="ADH_FECHA_HITO" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="SS_ADM_USUARIOS" Relationship="Self.RefSS_ADM_USUARIOS26" FromRole="SS_NEG_ADC_HITO" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_NEG_ADC" Relationship="Self.RefSS_NEG_ADC24" FromRole="SS_NEG_ADC_HITO" ToRole="SS_NEG_ADC" />
+          <NavigationProperty Name="SS_NEG_ADC_RESOLUCION" Relationship="Self.SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION" FromRole="SS_NEG_ADC_HITO" ToRole="SS_NEG_ADC_RESOLUCION" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC_RESOLUCION">
+          <Key>
+            <PropertyRef Name="ADR_ID" />
+          </Key>
+          <Property Name="ADR_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ADR_USR_RUT" Type="Int32" Nullable="false" />
+          <Property Name="ADR_FECHA" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ADR_FECHA_SIS" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ADR_TIPO_ACC" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="ADR_USR_RUT_ACC" Type="Int32" />
+          <Property Name="ADR_FECHA_ACC" Type="DateTime" Precision="3" />
+          <Property Name="ADR_FECHA_SIS_ACC" Type="DateTime" Precision="3" />
+          <Property Name="ADR_ADH_COD" Type="Int32" Nullable="false" />
+          <Property Name="ADR_TIPO_DECISION" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <NavigationProperty Name="SS_ADM_USUARIOS" Relationship="Self.RefSS_ADM_USUARIOS42" FromRole="SS_NEG_ADC_RESOLUCION" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_ADM_USUARIOS1" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2" FromRole="SS_NEG_ADC_RESOLUCION" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_NEG_ADC_HITO" Relationship="Self.SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION" FromRole="SS_NEG_ADC_RESOLUCION" ToRole="SS_NEG_ADC_HITO" />
+          <NavigationProperty Name="SS_NEG_ADC_SENTENCIA" Relationship="Self.SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1" FromRole="SS_NEG_ADC_RESOLUCION" ToRole="SS_NEG_ADC_SENTENCIA" />
+        </EntityType>
+        <EntityType Name="SS_NEG_ADC_SENTENCIA">
+          <Key>
+            <PropertyRef Name="ADS_ID" />
+          </Key>
+          <Property Name="ADS_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ADS_ADR_ID" Type="Int32" Nullable="false" />
+          <Property Name="ADS_COD_TIPO_SENTENCIA" Type="Int32" Nullable="false" />
+          <Property Name="ADS_COD_MEDIDA" Type="Int32" />
+          <Property Name="ADS_DIA_DURACION" Type="Int32" />
+          <Property Name="ADS_FECHA_INICIO" Type="DateTime" Precision="3" />
+          <Property Name="ADS_FECHA_FIN" Type="DateTime" Precision="3" />
+          <Property Name="ADS_OBSERVACION" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="ADS_USR_RUT" Type="Int32" Nullable="false" />
+          <Property Name="ADS_FECHA_SISTEMA" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ADS_TEL_ID" Type="Int32" />
+          <Property Name="ADS_TSU_ID" Type="Int32" />
+          <NavigationProperty Name="SS_ADM_USUARIOS" Relationship="Self.SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1" FromRole="SS_NEG_ADC_SENTENCIA" ToRole="SS_ADM_USUARIOS" />
+          <NavigationProperty Name="SS_NEG_ADC_RESOLUCION" Relationship="Self.SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1" FromRole="SS_NEG_ADC_SENTENCIA" ToRole="SS_NEG_ADC_RESOLUCION" />
+        </EntityType>
+        <Association Name="RefSS_ADM_USUARIOS26">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_HITO" Type="Self.SS_NEG_ADC_HITO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_HITO">
+              <PropertyRef Name="ADH_RUT_USUARIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_ADM_USUARIOS41">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_USUARIO_CREADOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_ADM_USUARIOS42">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_USR_RUT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_ADM_USUARIOS43">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_USUARIO_MODIFICADOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK3">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_COD_PIEFIRMA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK4">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_RUT_INSPECTOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK5">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_RUT_SUSTANCIADOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="0..1" />
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_USR_RUT_ACC" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1">
+          <End Role="SS_ADM_USUARIOS" Type="Self.SS_ADM_USUARIOS" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_SENTENCIA" Type="Self.SS_NEG_ADC_SENTENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_ADM_USUARIOS">
+              <PropertyRef Name="USR_RUT" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_SENTENCIA">
+              <PropertyRef Name="ADS_USR_RUT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_MAE_PROCESO35">
+          <End Role="SS_MAE_PROCESO" Type="Self.SS_MAE_PROCESO" Multiplicity="1" />
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_MAE_PROCESO">
+              <PropertyRef Name="PCS_COD_PROCESO" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_TIPO_PROCESO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RefSS_NEG_ADC24">
+          <End Role="SS_NEG_ADC" Type="Self.SS_NEG_ADC" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_HITO" Type="Self.SS_NEG_ADC_HITO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_ID" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_HITO">
+              <PropertyRef Name="ADH_ADC_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION">
+          <End Role="SS_NEG_ADC_HITO" Type="Self.SS_NEG_ADC_HITO" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_ADC_HITO">
+              <PropertyRef Name="ADH_COD" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_ADH_COD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1">
+          <End Role="SS_NEG_ADC_RESOLUCION" Type="Self.SS_NEG_ADC_RESOLUCION" Multiplicity="1" />
+          <End Role="SS_NEG_ADC_SENTENCIA" Type="Self.SS_NEG_ADC_SENTENCIA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_ADC_RESOLUCION">
+              <PropertyRef Name="ADR_ID" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC_SENTENCIA">
+              <PropertyRef Name="ADS_ADR_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="sancionatorioEDM" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="SS_ADM_USUARIOS" EntityType="Self.SS_ADM_USUARIOS" />
+          <EntitySet Name="SS_MAE_PROCESO" EntityType="Self.SS_MAE_PROCESO" />
+          <EntitySet Name="SS_NEG_ADC" EntityType="Self.SS_NEG_ADC" />
+          <EntitySet Name="SS_NEG_ADC_HITO" EntityType="Self.SS_NEG_ADC_HITO" />
+          <EntitySet Name="SS_NEG_ADC_RESOLUCION" EntityType="Self.SS_NEG_ADC_RESOLUCION" />
+          <EntitySet Name="SS_NEG_ADC_SENTENCIA" EntityType="Self.SS_NEG_ADC_SENTENCIA" />
+          <AssociationSet Name="RefSS_ADM_USUARIOS26" Association="Self.RefSS_ADM_USUARIOS26">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_HITO" EntitySet="SS_NEG_ADC_HITO" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_ADM_USUARIOS41" Association="Self.RefSS_ADM_USUARIOS41">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_ADM_USUARIOS42" Association="Self.RefSS_ADM_USUARIOS42">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_ADM_USUARIOS43" Association="Self.RefSS_ADM_USUARIOS43">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK3" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK3">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK4" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK4">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_FK5" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_FK5">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+          </AssociationSet>
+          <AssociationSet Name="SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1" Association="Self.SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1">
+            <End Role="SS_ADM_USUARIOS" EntitySet="SS_ADM_USUARIOS" />
+            <End Role="SS_NEG_ADC_SENTENCIA" EntitySet="SS_NEG_ADC_SENTENCIA" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_MAE_PROCESO35" Association="Self.RefSS_MAE_PROCESO35">
+            <End Role="SS_MAE_PROCESO" EntitySet="SS_MAE_PROCESO" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+          <AssociationSet Name="RefSS_NEG_ADC24" Association="Self.RefSS_NEG_ADC24">
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+            <End Role="SS_NEG_ADC_HITO" EntitySet="SS_NEG_ADC_HITO" />
+          </AssociationSet>
+          <AssociationSet Name="SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION" Association="Self.SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION">
+            <End Role="SS_NEG_ADC_HITO" EntitySet="SS_NEG_ADC_HITO" />
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+          </AssociationSet>
+          <AssociationSet Name="SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1" Association="Self.SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1">
+            <End Role="SS_NEG_ADC_RESOLUCION" EntitySet="SS_NEG_ADC_RESOLUCION" />
+            <End Role="SS_NEG_ADC_SENTENCIA" EntitySet="SS_NEG_ADC_SENTENCIA" />
+          </AssociationSet>
+          <EntitySet Name="SS_NEG_INFRACTOR" EntityType="sancionatorioModel.SS_NEG_INFRACTOR" />
+          <AssociationSet Name="RefSS_NEG_INFRACTOR36" Association="sancionatorioModel.RefSS_NEG_INFRACTOR36">
+            <End Role="SS_NEG_INFRACTOR" EntitySet="SS_NEG_INFRACTOR" />
+            <End Role="SS_NEG_ADC" EntitySet="SS_NEG_ADC" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="SS_NEG_INFRACTOR">
+          <Key>
+            <PropertyRef Name="IFR_COD" />
+          </Key>
+          <Property Name="IFR_COD_ACTIVIDAD" Type="Int32" />
+          <Property Name="IFR_COD" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IFR_TIPO_ID" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="IFR_IDENTIFICACION" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_TIPO_PERSONA" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="IFR_NOMBRES" Type="String" MaxLength="350" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_APELLIDO_PAT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_APELLIDO_MAT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_DOMICILIO" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_GENERO" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="IFR_COD_COMUNA" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+          <Property Name="IFR_COD_PAIS" Type="Int32" />
+          <Property Name="IFR_REP_LEG_RUT" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_REP_LEG_NOM" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_FONO" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_EMAIL" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Name="IFR_DIR_POSTAL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SS_NEG_ADC" Relationship="sancionatorioModel.RefSS_NEG_INFRACTOR36" FromRole="SS_NEG_INFRACTOR" ToRole="SS_NEG_ADC" />
+        </EntityType>
+        <Association Name="RefSS_NEG_INFRACTOR36">
+          <End Type="sancionatorioModel.SS_NEG_INFRACTOR" Role="SS_NEG_INFRACTOR" Multiplicity="1" />
+          <End Type="sancionatorioModel.SS_NEG_ADC" Role="SS_NEG_ADC" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SS_NEG_INFRACTOR">
+              <PropertyRef Name="IFR_COD" />
+            </Principal>
+            <Dependent Role="SS_NEG_ADC">
+              <PropertyRef Name="ADC_INFRACTOR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="sancionatorioModelStoreContainer" CdmEntityContainer="sancionatorioEDM">
+          <EntitySetMapping Name="SS_ADM_USUARIOS">
+            <EntityTypeMapping TypeName="sancionatorioModel.SS_ADM_USUARIOS">
+              <MappingFragment StoreEntitySet="SS_ADM_USUARIOS">
+                <ScalarProperty Name="USR_RUT" ColumnName="USR_RUT" />
+                <ScalarProperty Name="USR_NOMBRE" ColumnName="USR_NOMBRE" />
+                <ScalarProperty Name="USR_LOGIN" ColumnName="USR_LOGIN" />
+                <ScalarProperty Name="USR_PASSWORD" ColumnName="USR_PASSWORD" />
+                <ScalarProperty Name="USR_EMAIL" ColumnName="USR_EMAIL" />
+                <ScalarProperty Name="USR_ACTIVO" ColumnName="USR_ACTIVO" />
+                <ScalarProperty Name="USR_MENUUSUARIO" ColumnName="USR_MENUUSUARIO" />
+                <ScalarProperty Name="USR_COD_COMUNA" ColumnName="USR_COD_COMUNA" />
+                <ScalarProperty Name="USR_COD_OFICINA" ColumnName="USR_COD_OFICINA" />
+                <ScalarProperty Name="USR_COD_CARGO" ColumnName="USR_COD_CARGO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SS_MAE_PROCESO">
+            <EntityTypeMapping TypeName="sancionatorioModel.SS_MAE_PROCESO">
+              <MappingFragment StoreEntitySet="SS_MAE_PROCESO">
+                <ScalarProperty Name="PCS_COD_PROCESO" ColumnName="PCS_COD_PROCESO" />
+                <ScalarProperty Name="PCS_DES_PROCESO" ColumnName="PCS_DES_PROCESO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SS_NEG_ADC">
+            <EntityTypeMapping TypeName="sancionatorioModel.SS_NEG_ADC">
+              <MappingFragment StoreEntitySet="SS_NEG_ADC">
+                <ScalarProperty Name="ADC_ID" ColumnName="ADC_ID" />
+                <ScalarProperty Name="ADC_SISTEMA_ID" ColumnName="ADC_SISTEMA_ID" />
+                <ScalarProperty Name="ADC_TIPO_PROCESO" ColumnName="ADC_TIPO_PROCESO" />
+                <ScalarProperty Name="ADC_COD_ENTIDAD" ColumnName="ADC_COD_ENTIDAD" />
+                <ScalarProperty Name="ADC_INFRACTOR" ColumnName="ADC_INFRACTOR" />
+                <ScalarProperty Name="ADC_COD_INFRACCION" ColumnName="ADC_COD_INFRACCION" />
+                <ScalarProperty Name="ADC_ROL" ColumnName="ADC_ROL" />
+                <ScalarProperty Name="ADC_NUMERO" ColumnName="ADC_NUMERO" />
+                <ScalarProperty Name="ADC_COD_PIEFIRMA" ColumnName="ADC_COD_PIEFIRMA" />
+                <ScalarProperty Name="ADC_FECHA_AUDIENCIA" ColumnName="ADC_FECHA_AUDIENCIA" />
+                <ScalarProperty Name="ADC_TRANSPORTE" ColumnName="ADC_TRANSPORTE" />
+                <ScalarProperty Name="ADC_DECLARACION" ColumnName="ADC_DECLARACION" />
+                <ScalarProperty Name="ADC_FECHA_CREACION" ColumnName="ADC_FECHA_CREACION" />
+                <ScalarProperty Name="ADC_USUARIO_CREADOR" ColumnName="ADC_USUARIO_CREADOR" />
+                <ScalarProperty Name="ADC_ULTIMA_MODIFICACION" ColumnName="ADC_ULTIMA_MODIFICACION" />
+                <ScalarProperty Name="ADC_USUARIO_MODIFICADOR" ColumnName="ADC_USUARIO_MODIFICADOR" />
+                <ScalarProperty Name="ADC_ID_SUBMATERIA" ColumnName="ADC_ID_SUBMATERIA" />
+                <ScalarProperty Name="ADC_FIN_ID" ColumnName="ADC_FIN_ID" />
+                <ScalarProperty Name="ADC_FECHA_INGRESO" ColumnName="ADC_FECHA_INGRESO" />
+                <ScalarProperty Name="ADC_PROCESO_FIN" ColumnName="ADC_PROCESO_FIN" />
+                <ScalarProperty Name="ADC_RUT_INSPECTOR" ColumnName="ADC_RUT_INSPECTOR" />
+                <ScalarProperty Name="ADC_RUT_SUSTANCIADOR" ColumnName="ADC_RUT_SUSTANCIADOR" />
+                <ScalarProperty Name="ADC_OFICINA_USUARIO" ColumnName="ADC_OFICINA_USUARIO" />
+                <ScalarProperty Name="ADC_FECHA_DENUNCIA" ColumnName="ADC_FECHA_DENUNCIA" />
+                <ScalarProperty Name="ADC_NRO_FISCALIZACION" ColumnName="ADC_NRO_FISCALIZACION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SS_NEG_ADC_HITO">
+            <EntityTypeMapping TypeName="sancionatorioModel.SS_NEG_ADC_HITO">
+              <MappingFragment StoreEntitySet="SS_NEG_ADC_HITO">
+                <ScalarProperty Name="ADH_COD" ColumnName="ADH_COD" />
+                <ScalarProperty Name="ADH_ADC_ID" ColumnName="ADH_ADC_ID" />
+                <ScalarProperty Name="ADH_COD_HITO" ColumnName="ADH_COD_HITO" />
+                <ScalarProperty Name="ADH_RUT_USUARIO" ColumnName="ADH_RUT_USUARIO" />
+                <ScalarProperty Name="ADH_FECHA" ColumnName="ADH_FECHA" />
+                <ScalarProperty Name="ADH_NUM_RESOLUCION" ColumnName="ADH_NUM_RESOLUCION" />
+                <ScalarProperty Name="ADH_OBSERVACION" ColumnName="ADH_OBSERVACION" />
+                <ScalarProperty Name="ADH_FECHA_HITO" ColumnName="ADH_FECHA_HITO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SS_NEG_ADC_RESOLUCION">
+            <EntityTypeMapping TypeName="sancionatorioModel.SS_NEG_ADC_RESOLUCION">
+              <MappingFragment StoreEntitySet="SS_NEG_ADC_RESOLUCION">
+                <ScalarProperty Name="ADR_ID" ColumnName="ADR_ID" />
+                <ScalarProperty Name="ADR_USR_RUT" ColumnName="ADR_USR_RUT" />
+                <ScalarProperty Name="ADR_FECHA" ColumnName="ADR_FECHA" />
+                <ScalarProperty Name="ADR_FECHA_SIS" ColumnName="ADR_FECHA_SIS" />
+                <ScalarProperty Name="ADR_TIPO_ACC" ColumnName="ADR_TIPO_ACC" />
+                <ScalarProperty Name="ADR_USR_RUT_ACC" ColumnName="ADR_USR_RUT_ACC" />
+                <ScalarProperty Name="ADR_FECHA_ACC" ColumnName="ADR_FECHA_ACC" />
+                <ScalarProperty Name="ADR_FECHA_SIS_ACC" ColumnName="ADR_FECHA_SIS_ACC" />
+                <ScalarProperty Name="ADR_ADH_COD" ColumnName="ADR_ADH_COD" />
+                <ScalarProperty Name="ADR_TIPO_DECISION" ColumnName="ADR_TIPO_DECISION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SS_NEG_ADC_SENTENCIA">
+            <EntityTypeMapping TypeName="sancionatorioModel.SS_NEG_ADC_SENTENCIA">
+              <MappingFragment StoreEntitySet="SS_NEG_ADC_SENTENCIA">
+                <ScalarProperty Name="ADS_ID" ColumnName="ADS_ID" />
+                <ScalarProperty Name="ADS_ADR_ID" ColumnName="ADS_ADR_ID" />
+                <ScalarProperty Name="ADS_COD_TIPO_SENTENCIA" ColumnName="ADS_COD_TIPO_SENTENCIA" />
+                <ScalarProperty Name="ADS_COD_MEDIDA" ColumnName="ADS_COD_MEDIDA" />
+                <ScalarProperty Name="ADS_DIA_DURACION" ColumnName="ADS_DIA_DURACION" />
+                <ScalarProperty Name="ADS_FECHA_INICIO" ColumnName="ADS_FECHA_INICIO" />
+                <ScalarProperty Name="ADS_FECHA_FIN" ColumnName="ADS_FECHA_FIN" />
+                <ScalarProperty Name="ADS_OBSERVACION" ColumnName="ADS_OBSERVACION" />
+                <ScalarProperty Name="ADS_USR_RUT" ColumnName="ADS_USR_RUT" />
+                <ScalarProperty Name="ADS_FECHA_SISTEMA" ColumnName="ADS_FECHA_SISTEMA" />
+                <ScalarProperty Name="ADS_TEL_ID" ColumnName="ADS_TEL_ID" />
+                <ScalarProperty Name="ADS_TSU_ID" ColumnName="ADS_TSU_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SS_NEG_INFRACTOR">
+            <EntityTypeMapping TypeName="sancionatorioModel.SS_NEG_INFRACTOR">
+              <MappingFragment StoreEntitySet="SS_NEG_INFRACTOR">
+                <ScalarProperty Name="IFR_DIR_POSTAL" ColumnName="IFR_DIR_POSTAL" />
+                <ScalarProperty Name="IFR_EMAIL" ColumnName="IFR_EMAIL" />
+                <ScalarProperty Name="IFR_FONO" ColumnName="IFR_FONO" />
+                <ScalarProperty Name="IFR_REP_LEG_NOM" ColumnName="IFR_REP_LEG_NOM" />
+                <ScalarProperty Name="IFR_REP_LEG_RUT" ColumnName="IFR_REP_LEG_RUT" />
+                <ScalarProperty Name="IFR_COD_PAIS" ColumnName="IFR_COD_PAIS" />
+                <ScalarProperty Name="IFR_COD_COMUNA" ColumnName="IFR_COD_COMUNA" />
+                <ScalarProperty Name="IFR_GENERO" ColumnName="IFR_GENERO" />
+                <ScalarProperty Name="IFR_DOMICILIO" ColumnName="IFR_DOMICILIO" />
+                <ScalarProperty Name="IFR_APELLIDO_MAT" ColumnName="IFR_APELLIDO_MAT" />
+                <ScalarProperty Name="IFR_APELLIDO_PAT" ColumnName="IFR_APELLIDO_PAT" />
+                <ScalarProperty Name="IFR_NOMBRES" ColumnName="IFR_NOMBRES" />
+                <ScalarProperty Name="IFR_TIPO_PERSONA" ColumnName="IFR_TIPO_PERSONA" />
+                <ScalarProperty Name="IFR_IDENTIFICACION" ColumnName="IFR_IDENTIFICACION" />
+                <ScalarProperty Name="IFR_TIPO_ID" ColumnName="IFR_TIPO_ID" />
+                <ScalarProperty Name="IFR_COD" ColumnName="IFR_COD" />
+                <ScalarProperty Name="IFR_COD_ACTIVIDAD" ColumnName="IFR_COD_ACTIVIDAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

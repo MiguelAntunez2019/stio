@@ -23,7 +23,7 @@ namespace Infraccional.ObjetoTransferencia.Infraccional.TO
         /// <summary>
         /// Representa el identificador del sistema.
         /// </summary>
-        [Column(Name = "ADC_SISTEMA_ID")]
+        [Column(Name = "ADC_SISTEMA_ID")] 
         public int Sistema { get; set; }     
         /// <summary>
         /// Representa la entidad fiscalizadora.

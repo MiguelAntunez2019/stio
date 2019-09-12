@@ -1,0 +1,507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="FiscalizacionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="FotoFW">
+          <Key>
+            <PropertyRef Name="idFotoFW" />
+          </Key>
+          <Property Name="idFotoFW" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="idchecklist" Type="int" Nullable="false" />
+          <Property Name="ruta" Type="nvarchar" MaxLength="200" />
+          <Property Name="nombre" Type="nvarchar" MaxLength="100" />
+          <Property Name="tipoDocumento" Type="int" />
+        </EntityType>
+        <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'SKV_SAG.dbo.Historica' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+        <EntityType Name="Historica">
+          <Key>
+            <PropertyRef Name="listFiscalizadores" />
+            <PropertyRef Name="resultadoFiscalizacion" />
+            <PropertyRef Name="adc" />
+            <PropertyRef Name="tieneMuestras" />
+            <PropertyRef Name="actaCautiverio" />
+            <PropertyRef Name="actaOtros" />
+          </Key>
+          <Property Name="idFiscalizacionDetalle" Type="int" />
+          <Property Name="idFiscalizacionCheckList" Type="int" />
+          <Property Name="descripcionOrigen" Type="nvarchar" MaxLength="200" />
+          <Property Name="aftFolio" Type="nvarchar" MaxLength="50" />
+          <Property Name="fechaCreacion" Type="datetime" />
+          <Property Name="idFiscalizador" Type="int" />
+          <Property Name="idFiscalizacion" Type="int" />
+          <Property Name="idRolFiscalizador" Type="int" />
+          <Property Name="fechaModificacion" Type="datetime" />
+          <Property Name="fechaInicio" Type="datetime" />
+          <Property Name="fechaTermino" Type="datetime" />
+          <Property Name="tiempoTotal" Type="int" />
+          <Property Name="nombreFiscalizacion" Type="nvarchar" MaxLength="100" />
+          <Property Name="descripcion" Type="ntext" />
+          <Property Name="allday" Type="int" />
+          <Property Name="estadoFiscalizacionId" Type="int" />
+          <Property Name="estadoFiscalizacion" Type="nvarchar" MaxLength="200" />
+          <Property Name="idUsuario" Type="int" />
+          <Property Name="idEntidad" Type="int" />
+          <Property Name="idChecklist" Type="int" />
+          <Property Name="idTipoFiscalizacion" Type="int" />
+          <Property Name="listFiscalizadores" Type="varchar" MaxLength="1" Nullable="false" />
+          <Property Name="rutFiscalizador" Type="nvarchar" MaxLength="20" />
+          <Property Name="nombreFiscalizador" Type="nvarchar" MaxLength="100" />
+          <Property Name="listIncumplimientos" Type="ntext" />
+          <Property Name="tipoFiscalizacion" Type="nvarchar" MaxLength="200" />
+          <Property Name="anioFiscalizacion" Type="int" />
+          <Property Name="nombreSubMateria" Type="nvarchar" MaxLength="100" />
+          <Property Name="nombreMateria" Type="nvarchar" MaxLength="100" />
+          <Property Name="nombreAmbito" Type="nvarchar" MaxLength="100" />
+          <Property Name="nombreEstablecimientoLugar" Type="nvarchar" MaxLength="200" />
+          <Property Name="nombreRepresentante" Type="nvarchar" MaxLength="200" />
+          <Property Name="rutEntidad" Type="nvarchar" MaxLength="50" />
+          <Property Name="rutRepresentante" Type="nvarchar" MaxLength="20" />
+          <Property Name="nombreEntidad" Type="nvarchar" MaxLength="400" />
+          <Property Name="coordenadaX" Type="nvarchar" MaxLength="50" />
+          <Property Name="coordenadaY" Type="nvarchar" MaxLength="50" />
+          <Property Name="huso" Type="nvarchar" MaxLength="50" />
+          <Property Name="numeroIdentificador" Type="nvarchar" MaxLength="50" />
+          <Property Name="tipoIdentificador" Type="nvarchar" MaxLength="100" />
+          <Property Name="resultadoFiscalizacion" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="idOrigen" Type="int" />
+          <Property Name="tipoPersona" Type="nvarchar" MaxLength="50" />
+          <Property Name="direccionEntidad" Type="nvarchar" MaxLength="500" />
+          <Property Name="comunaNombre" Type="varchar" MaxLength="100" />
+          <Property Name="regionnombre2" Type="varchar" MaxLength="50" />
+          <Property Name="regionnombre3" Type="int" />
+          <Property Name="regionnombre4" Type="int" />
+          <Property Name="regionnombre5" Type="varchar" MaxLength="50" />
+          <Property Name="regionNombre" Type="varchar" MaxLength="50" />
+          <Property Name="aftAdjunto" Type="varchar(max)" />
+          <Property Name="pautaAdjunto" Type="varchar(max)" />
+          <Property Name="adcAdjunto" Type="varchar(max)" />
+          <Property Name="otroAdjunto" Type="varchar(max)" />
+          <Property Name="nombreOficina" Type="nvarchar" MaxLength="250" />
+          <Property Name="idOficina" Type="int" />
+          <Property Name="regionOficinaFiscalizador" Type="varchar" MaxLength="50" />
+          <Property Name="codigoIndicador" Type="nvarchar" MaxLength="50" />
+          <Property Name="nombreRazonSocial" Type="nvarchar" MaxLength="801" />
+          <Property Name="regionFiscalizado" Type="varchar" MaxLength="50" />
+          <Property Name="comunaFiscalizado" Type="varchar" MaxLength="100" />
+          <Property Name="direccionFiscalizado" Type="nvarchar" MaxLength="120" />
+          <Property Name="telefonoFiscalizado" Type="nvarchar" MaxLength="11" />
+          <Property Name="correoFiscalizado" Type="nvarchar" MaxLength="60" />
+          <Property Name="usuarioCreador" Type="nvarchar" MaxLength="152" />
+          <Property Name="idTipoIdentificador" Type="int" />
+          <Property Name="RegFiscalizador" Type="int" />
+          <Property Name="ComunaFiscalizador" Type="int" />
+          <Property Name="idresultado" Type="int" />
+          <Property Name="idAmbito" Type="int" />
+          <Property Name="idMateria" Type="int" />
+          <Property Name="idSubMateria" Type="int" />
+          <Property Name="TotalCount" Type="int" />
+          <Property Name="generoFiscalizado" Type="nvarchar" MaxLength="10" />
+          <Property Name="idAdc" Type="nvarchar" MaxLength="20" />
+          <Property Name="adc" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="adcFolio" Type="nvarchar" MaxLength="50" />
+          <Property Name="numeroMuestras" Type="nvarchar" MaxLength="20" />
+          <Property Name="tieneMuestras" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="muestraFolio" Type="nvarchar" MaxLength="20" />
+          <Property Name="actaCautiverio" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="cautiverioFolio" Type="nvarchar" MaxLength="20" />
+          <Property Name="actaOtros" Type="varchar" MaxLength="2" Nullable="false" />
+          <Property Name="otrosFolio" Type="nvarchar" MaxLength="50" />
+          <Property Name="nombreFiscalizado" Type="nvarchar" MaxLength="20" />
+          <Property Name="rutFiscalizado" Type="nvarchar" MaxLength="20" />
+          <Property Name="RowNum" Type="bigint" />
+          <Property Name="nombreEntidadReporte" Type="nvarchar" MaxLength="150" />
+          <Property Name="identificadorEntidadReporte" Type="nvarchar" MaxLength="50" />
+          <Property Name="direccionEntidadReporte" Type="nvarchar" MaxLength="120" />
+          <Property Name="telefonoEntidadReporte" Type="nvarchar" MaxLength="11" />
+          <Property Name="correoEntidadReporte" Type="nvarchar" MaxLength="60" />
+          <Property Name="idTipoRepresentanteEntidadReporte" Type="int" />
+          <Property Name="nombreRepresentanteEntidadReporte" Type="nvarchar" MaxLength="50" />
+          <Property Name="rutRepresentanteEntidadReporte" Type="nvarchar" MaxLength="10" />
+          <Property Name="idEntidadReporte" Type="int" />
+          <Property Name="subMateriaEntidadReporte" Type="int" />
+          <Property Name="comunaEntidadReporte" Type="int" />
+          <Property Name="idComuna" Type="int" />
+        </EntityType>
+        <EntityContainer Name="FiscalizacionModelStoreContainer">
+          <EntitySet Name="FotoFW" EntityType="Self.FotoFW" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Historica" EntityType="Self.Historica" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [Historica].[idFiscalizacionDetalle] AS [idFiscalizacionDetalle], 
+    [Historica].[idFiscalizacionCheckList] AS [idFiscalizacionCheckList], 
+    [Historica].[descripcionOrigen] AS [descripcionOrigen], 
+    [Historica].[aftFolio] AS [aftFolio], 
+    [Historica].[fechaCreacion] AS [fechaCreacion], 
+    [Historica].[idFiscalizador] AS [idFiscalizador], 
+    [Historica].[idFiscalizacion] AS [idFiscalizacion], 
+    [Historica].[idRolFiscalizador] AS [idRolFiscalizador], 
+    [Historica].[fechaModificacion] AS [fechaModificacion], 
+    [Historica].[fechaInicio] AS [fechaInicio], 
+    [Historica].[fechaTermino] AS [fechaTermino], 
+    [Historica].[tiempoTotal] AS [tiempoTotal], 
+    [Historica].[nombreFiscalizacion] AS [nombreFiscalizacion], 
+    [Historica].[descripcion] AS [descripcion], 
+    [Historica].[allday] AS [allday], 
+    [Historica].[estadoFiscalizacionId] AS [estadoFiscalizacionId], 
+    [Historica].[estadoFiscalizacion] AS [estadoFiscalizacion], 
+    [Historica].[idUsuario] AS [idUsuario], 
+    [Historica].[idEntidad] AS [idEntidad], 
+    [Historica].[idChecklist] AS [idChecklist], 
+    [Historica].[idTipoFiscalizacion] AS [idTipoFiscalizacion], 
+    [Historica].[listFiscalizadores] AS [listFiscalizadores], 
+    [Historica].[rutFiscalizador] AS [rutFiscalizador], 
+    [Historica].[nombreFiscalizador] AS [nombreFiscalizador], 
+    [Historica].[listIncumplimientos] AS [listIncumplimientos], 
+    [Historica].[tipoFiscalizacion] AS [tipoFiscalizacion], 
+    [Historica].[anioFiscalizacion] AS [anioFiscalizacion], 
+    [Historica].[nombreSubMateria] AS [nombreSubMateria], 
+    [Historica].[nombreMateria] AS [nombreMateria], 
+    [Historica].[nombreAmbito] AS [nombreAmbito], 
+    [Historica].[nombreEstablecimientoLugar] AS [nombreEstablecimientoLugar], 
+    [Historica].[nombreRepresentante] AS [nombreRepresentante], 
+    [Historica].[rutEntidad] AS [rutEntidad], 
+    [Historica].[rutRepresentante] AS [rutRepresentante], 
+    [Historica].[nombreEntidad] AS [nombreEntidad], 
+    [Historica].[coordenadaX] AS [coordenadaX], 
+    [Historica].[coordenadaY] AS [coordenadaY], 
+    [Historica].[huso] AS [huso], 
+    [Historica].[numeroIdentificador] AS [numeroIdentificador], 
+    [Historica].[tipoIdentificador] AS [tipoIdentificador], 
+    [Historica].[resultadoFiscalizacion] AS [resultadoFiscalizacion], 
+    [Historica].[idOrigen] AS [idOrigen], 
+    [Historica].[tipoPersona] AS [tipoPersona], 
+    [Historica].[direccionEntidad] AS [direccionEntidad], 
+    [Historica].[comunaNombre] AS [comunaNombre], 
+    [Historica].[regionnombre2] AS [regionnombre2], 
+    [Historica].[regionnombre3] AS [regionnombre3], 
+    [Historica].[regionnombre4] AS [regionnombre4], 
+    [Historica].[regionnombre5] AS [regionnombre5], 
+    [Historica].[regionNombre] AS [regionNombre], 
+    [Historica].[aftAdjunto] AS [aftAdjunto], 
+    [Historica].[pautaAdjunto] AS [pautaAdjunto], 
+    [Historica].[adcAdjunto] AS [adcAdjunto], 
+    [Historica].[otroAdjunto] AS [otroAdjunto], 
+    [Historica].[nombreOficina] AS [nombreOficina], 
+    [Historica].[idOficina] AS [idOficina], 
+    [Historica].[regionOficinaFiscalizador] AS [regionOficinaFiscalizador], 
+    [Historica].[codigoIndicador] AS [codigoIndicador], 
+    [Historica].[nombreRazonSocial] AS [nombreRazonSocial], 
+    [Historica].[regionFiscalizado] AS [regionFiscalizado], 
+    [Historica].[comunaFiscalizado] AS [comunaFiscalizado], 
+    [Historica].[direccionFiscalizado] AS [direccionFiscalizado], 
+    [Historica].[telefonoFiscalizado] AS [telefonoFiscalizado], 
+    [Historica].[correoFiscalizado] AS [correoFiscalizado], 
+    [Historica].[usuarioCreador] AS [usuarioCreador], 
+    [Historica].[idTipoIdentificador] AS [idTipoIdentificador], 
+    [Historica].[RegFiscalizador] AS [RegFiscalizador], 
+    [Historica].[ComunaFiscalizador] AS [ComunaFiscalizador], 
+    [Historica].[idresultado] AS [idresultado], 
+    [Historica].[idAmbito] AS [idAmbito], 
+    [Historica].[idMateria] AS [idMateria], 
+    [Historica].[idSubMateria] AS [idSubMateria], 
+    [Historica].[TotalCount] AS [TotalCount], 
+    [Historica].[generoFiscalizado] AS [generoFiscalizado], 
+    [Historica].[idAdc] AS [idAdc], 
+    [Historica].[adc] AS [adc], 
+    [Historica].[adcFolio] AS [adcFolio], 
+    [Historica].[numeroMuestras] AS [numeroMuestras], 
+    [Historica].[tieneMuestras] AS [tieneMuestras], 
+    [Historica].[muestraFolio] AS [muestraFolio], 
+    [Historica].[actaCautiverio] AS [actaCautiverio], 
+    [Historica].[cautiverioFolio] AS [cautiverioFolio], 
+    [Historica].[actaOtros] AS [actaOtros], 
+    [Historica].[otrosFolio] AS [otrosFolio], 
+    [Historica].[nombreFiscalizado] AS [nombreFiscalizado], 
+    [Historica].[rutFiscalizado] AS [rutFiscalizado], 
+    [Historica].[RowNum] AS [RowNum], 
+    [Historica].[nombreEntidadReporte] AS [nombreEntidadReporte], 
+    [Historica].[identificadorEntidadReporte] AS [identificadorEntidadReporte], 
+    [Historica].[direccionEntidadReporte] AS [direccionEntidadReporte], 
+    [Historica].[telefonoEntidadReporte] AS [telefonoEntidadReporte], 
+    [Historica].[correoEntidadReporte] AS [correoEntidadReporte], 
+    [Historica].[idTipoRepresentanteEntidadReporte] AS [idTipoRepresentanteEntidadReporte], 
+    [Historica].[nombreRepresentanteEntidadReporte] AS [nombreRepresentanteEntidadReporte], 
+    [Historica].[rutRepresentanteEntidadReporte] AS [rutRepresentanteEntidadReporte], 
+    [Historica].[idEntidadReporte] AS [idEntidadReporte], 
+    [Historica].[subMateriaEntidadReporte] AS [subMateriaEntidadReporte], 
+    [Historica].[comunaEntidadReporte] AS [comunaEntidadReporte], 
+    [Historica].[idComuna] AS [idComuna]
+    FROM [dbo].[Historica] AS [Historica]</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FiscalizacionModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Historica">
+          <Key>
+            <PropertyRef Name="listFiscalizadores" />
+            <PropertyRef Name="resultadoFiscalizacion" />
+            <PropertyRef Name="adc" />
+            <PropertyRef Name="tieneMuestras" />
+            <PropertyRef Name="actaCautiverio" />
+            <PropertyRef Name="actaOtros" />
+          </Key>
+          <Property Name="idFiscalizacionDetalle" Type="Int32" />
+          <Property Name="idFiscalizacionCheckList" Type="Int32" />
+          <Property Name="descripcionOrigen" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="aftFolio" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="fechaCreacion" Type="DateTime" Precision="3" />
+          <Property Name="idFiscalizador" Type="Int32" />
+          <Property Name="idFiscalizacion" Type="Int32" />
+          <Property Name="idRolFiscalizador" Type="Int32" />
+          <Property Name="fechaModificacion" Type="DateTime" Precision="3" />
+          <Property Name="fechaInicio" Type="DateTime" Precision="3" />
+          <Property Name="fechaTermino" Type="DateTime" Precision="3" />
+          <Property Name="tiempoTotal" Type="Int32" />
+          <Property Name="nombreFiscalizacion" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="allday" Type="Int32" />
+          <Property Name="estadoFiscalizacionId" Type="Int32" />
+          <Property Name="estadoFiscalizacion" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="idUsuario" Type="Int32" />
+          <Property Name="idEntidad" Type="Int32" />
+          <Property Name="idChecklist" Type="Int32" />
+          <Property Name="idTipoFiscalizacion" Type="Int32" />
+          <Property Name="listFiscalizadores" Type="String" MaxLength="1" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="rutFiscalizador" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="nombreFiscalizador" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="listIncumplimientos" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="tipoFiscalizacion" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="anioFiscalizacion" Type="Int32" />
+          <Property Name="nombreSubMateria" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="nombreMateria" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="nombreAmbito" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="nombreEstablecimientoLugar" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="nombreRepresentante" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="rutEntidad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="rutRepresentante" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="nombreEntidad" Type="String" MaxLength="400" FixedLength="false" Unicode="true" />
+          <Property Name="coordenadaX" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="coordenadaY" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="huso" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="numeroIdentificador" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="tipoIdentificador" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="resultadoFiscalizacion" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="idOrigen" Type="Int32" />
+          <Property Name="tipoPersona" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="direccionEntidad" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="comunaNombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="regionnombre2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="regionnombre3" Type="Int32" />
+          <Property Name="regionnombre4" Type="Int32" />
+          <Property Name="regionnombre5" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="regionNombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="aftAdjunto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="pautaAdjunto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="adcAdjunto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="otroAdjunto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="nombreOficina" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+          <Property Name="idOficina" Type="Int32" />
+          <Property Name="regionOficinaFiscalizador" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="codigoIndicador" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nombreRazonSocial" Type="String" MaxLength="801" FixedLength="false" Unicode="true" />
+          <Property Name="regionFiscalizado" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="comunaFiscalizado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="direccionFiscalizado" Type="String" MaxLength="120" FixedLength="false" Unicode="true" />
+          <Property Name="telefonoFiscalizado" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+          <Property Name="correoFiscalizado" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="usuarioCreador" Type="String" MaxLength="152" FixedLength="false" Unicode="true" />
+          <Property Name="idTipoIdentificador" Type="Int32" />
+          <Property Name="RegFiscalizador" Type="Int32" />
+          <Property Name="ComunaFiscalizador" Type="Int32" />
+          <Property Name="idresultado" Type="Int32" />
+          <Property Name="idAmbito" Type="Int32" />
+          <Property Name="idMateria" Type="Int32" />
+          <Property Name="idSubMateria" Type="Int32" />
+          <Property Name="TotalCount" Type="Int32" />
+          <Property Name="generoFiscalizado" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="idAdc" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="adc" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="adcFolio" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="numeroMuestras" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="tieneMuestras" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="muestraFolio" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="actaCautiverio" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="cautiverioFolio" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="actaOtros" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="otrosFolio" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="nombreFiscalizado" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="rutFiscalizado" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="RowNum" Type="Int64" />
+          <Property Name="nombreEntidadReporte" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="identificadorEntidadReporte" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="direccionEntidadReporte" Type="String" MaxLength="120" FixedLength="false" Unicode="true" />
+          <Property Name="telefonoEntidadReporte" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+          <Property Name="correoEntidadReporte" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="idTipoRepresentanteEntidadReporte" Type="Int32" />
+          <Property Name="nombreRepresentanteEntidadReporte" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="rutRepresentanteEntidadReporte" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="idEntidadReporte" Type="Int32" />
+          <Property Name="subMateriaEntidadReporte" Type="Int32" />
+          <Property Name="comunaEntidadReporte" Type="Int32" />
+          <Property Name="idComuna" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="fiscalizacionEDM" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Historica" EntityType="Self.Historica" />
+          <EntitySet Name="FotoFW" EntityType="FiscalizacionModel.FotoFW" />
+        </EntityContainer>
+        <EntityType Name="FotoFW">
+          <Key>
+            <PropertyRef Name="idFotoFW" />
+          </Key>
+          <Property Name="idFotoFW" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="idchecklist" Type="Int32" Nullable="false" />
+          <Property Name="ruta" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="tipoDocumento" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FiscalizacionModelStoreContainer" CdmEntityContainer="fiscalizacionEDM">
+          <EntitySetMapping Name="Historica">
+            <EntityTypeMapping TypeName="FiscalizacionModel.Historica">
+              <MappingFragment StoreEntitySet="Historica">
+                <ScalarProperty Name="idFiscalizacionDetalle" ColumnName="idFiscalizacionDetalle" />
+                <ScalarProperty Name="idFiscalizacionCheckList" ColumnName="idFiscalizacionCheckList" />
+                <ScalarProperty Name="descripcionOrigen" ColumnName="descripcionOrigen" />
+                <ScalarProperty Name="aftFolio" ColumnName="aftFolio" />
+                <ScalarProperty Name="fechaCreacion" ColumnName="fechaCreacion" />
+                <ScalarProperty Name="idFiscalizador" ColumnName="idFiscalizador" />
+                <ScalarProperty Name="idFiscalizacion" ColumnName="idFiscalizacion" />
+                <ScalarProperty Name="idRolFiscalizador" ColumnName="idRolFiscalizador" />
+                <ScalarProperty Name="fechaModificacion" ColumnName="fechaModificacion" />
+                <ScalarProperty Name="fechaInicio" ColumnName="fechaInicio" />
+                <ScalarProperty Name="fechaTermino" ColumnName="fechaTermino" />
+                <ScalarProperty Name="tiempoTotal" ColumnName="tiempoTotal" />
+                <ScalarProperty Name="nombreFiscalizacion" ColumnName="nombreFiscalizacion" />
+                <ScalarProperty Name="descripcion" ColumnName="descripcion" />
+                <ScalarProperty Name="allday" ColumnName="allday" />
+                <ScalarProperty Name="estadoFiscalizacionId" ColumnName="estadoFiscalizacionId" />
+                <ScalarProperty Name="estadoFiscalizacion" ColumnName="estadoFiscalizacion" />
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="idEntidad" ColumnName="idEntidad" />
+                <ScalarProperty Name="idChecklist" ColumnName="idChecklist" />
+                <ScalarProperty Name="idTipoFiscalizacion" ColumnName="idTipoFiscalizacion" />
+                <ScalarProperty Name="listFiscalizadores" ColumnName="listFiscalizadores" />
+                <ScalarProperty Name="rutFiscalizador" ColumnName="rutFiscalizador" />
+                <ScalarProperty Name="nombreFiscalizador" ColumnName="nombreFiscalizador" />
+                <ScalarProperty Name="listIncumplimientos" ColumnName="listIncumplimientos" />
+                <ScalarProperty Name="tipoFiscalizacion" ColumnName="tipoFiscalizacion" />
+                <ScalarProperty Name="anioFiscalizacion" ColumnName="anioFiscalizacion" />
+                <ScalarProperty Name="nombreSubMateria" ColumnName="nombreSubMateria" />
+                <ScalarProperty Name="nombreMateria" ColumnName="nombreMateria" />
+                <ScalarProperty Name="nombreAmbito" ColumnName="nombreAmbito" />
+                <ScalarProperty Name="nombreEstablecimientoLugar" ColumnName="nombreEstablecimientoLugar" />
+                <ScalarProperty Name="nombreRepresentante" ColumnName="nombreRepresentante" />
+                <ScalarProperty Name="rutEntidad" ColumnName="rutEntidad" />
+                <ScalarProperty Name="rutRepresentante" ColumnName="rutRepresentante" />
+                <ScalarProperty Name="nombreEntidad" ColumnName="nombreEntidad" />
+                <ScalarProperty Name="coordenadaX" ColumnName="coordenadaX" />
+                <ScalarProperty Name="coordenadaY" ColumnName="coordenadaY" />
+                <ScalarProperty Name="huso" ColumnName="huso" />
+                <ScalarProperty Name="numeroIdentificador" ColumnName="numeroIdentificador" />
+                <ScalarProperty Name="tipoIdentificador" ColumnName="tipoIdentificador" />
+                <ScalarProperty Name="resultadoFiscalizacion" ColumnName="resultadoFiscalizacion" />
+                <ScalarProperty Name="idOrigen" ColumnName="idOrigen" />
+                <ScalarProperty Name="tipoPersona" ColumnName="tipoPersona" />
+                <ScalarProperty Name="direccionEntidad" ColumnName="direccionEntidad" />
+                <ScalarProperty Name="comunaNombre" ColumnName="comunaNombre" />
+                <ScalarProperty Name="regionnombre2" ColumnName="regionnombre2" />
+                <ScalarProperty Name="regionnombre3" ColumnName="regionnombre3" />
+                <ScalarProperty Name="regionnombre4" ColumnName="regionnombre4" />
+                <ScalarProperty Name="regionnombre5" ColumnName="regionnombre5" />
+                <ScalarProperty Name="regionNombre" ColumnName="regionNombre" />
+                <ScalarProperty Name="aftAdjunto" ColumnName="aftAdjunto" />
+                <ScalarProperty Name="pautaAdjunto" ColumnName="pautaAdjunto" />
+                <ScalarProperty Name="adcAdjunto" ColumnName="adcAdjunto" />
+                <ScalarProperty Name="otroAdjunto" ColumnName="otroAdjunto" />
+                <ScalarProperty Name="nombreOficina" ColumnName="nombreOficina" />
+                <ScalarProperty Name="idOficina" ColumnName="idOficina" />
+                <ScalarProperty Name="regionOficinaFiscalizador" ColumnName="regionOficinaFiscalizador" />
+                <ScalarProperty Name="codigoIndicador" ColumnName="codigoIndicador" />
+                <ScalarProperty Name="nombreRazonSocial" ColumnName="nombreRazonSocial" />
+                <ScalarProperty Name="regionFiscalizado" ColumnName="regionFiscalizado" />
+                <ScalarProperty Name="comunaFiscalizado" ColumnName="comunaFiscalizado" />
+                <ScalarProperty Name="direccionFiscalizado" ColumnName="direccionFiscalizado" />
+                <ScalarProperty Name="telefonoFiscalizado" ColumnName="telefonoFiscalizado" />
+                <ScalarProperty Name="correoFiscalizado" ColumnName="correoFiscalizado" />
+                <ScalarProperty Name="usuarioCreador" ColumnName="usuarioCreador" />
+                <ScalarProperty Name="idTipoIdentificador" ColumnName="idTipoIdentificador" />
+                <ScalarProperty Name="RegFiscalizador" ColumnName="RegFiscalizador" />
+                <ScalarProperty Name="ComunaFiscalizador" ColumnName="ComunaFiscalizador" />
+                <ScalarProperty Name="idresultado" ColumnName="idresultado" />
+                <ScalarProperty Name="idAmbito" ColumnName="idAmbito" />
+                <ScalarProperty Name="idMateria" ColumnName="idMateria" />
+                <ScalarProperty Name="idSubMateria" ColumnName="idSubMateria" />
+                <ScalarProperty Name="TotalCount" ColumnName="TotalCount" />
+                <ScalarProperty Name="generoFiscalizado" ColumnName="generoFiscalizado" />
+                <ScalarProperty Name="idAdc" ColumnName="idAdc" />
+                <ScalarProperty Name="adc" ColumnName="adc" />
+                <ScalarProperty Name="adcFolio" ColumnName="adcFolio" />
+                <ScalarProperty Name="numeroMuestras" ColumnName="numeroMuestras" />
+                <ScalarProperty Name="tieneMuestras" ColumnName="tieneMuestras" />
+                <ScalarProperty Name="muestraFolio" ColumnName="muestraFolio" />
+                <ScalarProperty Name="actaCautiverio" ColumnName="actaCautiverio" />
+                <ScalarProperty Name="cautiverioFolio" ColumnName="cautiverioFolio" />
+                <ScalarProperty Name="actaOtros" ColumnName="actaOtros" />
+                <ScalarProperty Name="otrosFolio" ColumnName="otrosFolio" />
+                <ScalarProperty Name="nombreFiscalizado" ColumnName="nombreFiscalizado" />
+                <ScalarProperty Name="rutFiscalizado" ColumnName="rutFiscalizado" />
+                <ScalarProperty Name="RowNum" ColumnName="RowNum" />
+                <ScalarProperty Name="nombreEntidadReporte" ColumnName="nombreEntidadReporte" />
+                <ScalarProperty Name="identificadorEntidadReporte" ColumnName="identificadorEntidadReporte" />
+                <ScalarProperty Name="direccionEntidadReporte" ColumnName="direccionEntidadReporte" />
+                <ScalarProperty Name="telefonoEntidadReporte" ColumnName="telefonoEntidadReporte" />
+                <ScalarProperty Name="correoEntidadReporte" ColumnName="correoEntidadReporte" />
+                <ScalarProperty Name="idTipoRepresentanteEntidadReporte" ColumnName="idTipoRepresentanteEntidadReporte" />
+                <ScalarProperty Name="nombreRepresentanteEntidadReporte" ColumnName="nombreRepresentanteEntidadReporte" />
+                <ScalarProperty Name="rutRepresentanteEntidadReporte" ColumnName="rutRepresentanteEntidadReporte" />
+                <ScalarProperty Name="idEntidadReporte" ColumnName="idEntidadReporte" />
+                <ScalarProperty Name="subMateriaEntidadReporte" ColumnName="subMateriaEntidadReporte" />
+                <ScalarProperty Name="comunaEntidadReporte" ColumnName="comunaEntidadReporte" />
+                <ScalarProperty Name="idComuna" ColumnName="idComuna" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FotoFW">
+            <EntityTypeMapping TypeName="FiscalizacionModel.FotoFW">
+              <MappingFragment StoreEntitySet="FotoFW">
+                <ScalarProperty Name="tipoDocumento" ColumnName="tipoDocumento" />
+                <ScalarProperty Name="nombre" ColumnName="nombre" />
+                <ScalarProperty Name="ruta" ColumnName="ruta" />
+                <ScalarProperty Name="idchecklist" ColumnName="idchecklist" />
+                <ScalarProperty Name="idFotoFW" ColumnName="idFotoFW" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

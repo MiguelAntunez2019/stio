@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6d6ce27a93a1424aa2d07fb6017375e0" Name="Diagram1">
+        <EntityTypeShape EntityType="sancionatorioModel.SS_ADM_USUARIOS" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sancionatorioModel.SS_MAE_PROCESO" Width="1.5" PointX="2.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sancionatorioModel.SS_NEG_ADC" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sancionatorioModel.SS_NEG_ADC_HITO" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sancionatorioModel.SS_NEG_ADC_RESOLUCION" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sancionatorioModel.SS_NEG_ADC_SENTENCIA" Width="1.5" PointX="10.5" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="sancionatorioModel.RefSS_ADM_USUARIOS26" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.RefSS_ADM_USUARIOS41" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.RefSS_ADM_USUARIOS42" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.RefSS_ADM_USUARIOS43" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.SS_ADM_USUARIOS_SS_NEG_ADC_FK3" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.SS_ADM_USUARIOS_SS_NEG_ADC_FK4" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.SS_ADM_USUARIOS_SS_NEG_ADC_FK5" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.SS_ADM_USUARIOS_SS_NEG_ADC_RESOLUCION_FK2" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.SS_ADM_USUARIOS_SS_NEG_ADC_SENTENCIA_FK1" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.RefSS_MAE_PROCESO35" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.RefSS_NEG_ADC24" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.SS_NEG_ADC_HITO_SS_NEG_ADC_RESOLUCION" ManuallyRouted="false" />
+        <AssociationConnector Association="sancionatorioModel.SS_NEG_ADC_RESOLUCION_SS_NEG_ADC_SENTENCIA_FK1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="sancionatorioModel.SS_NEG_INFRACTOR" Width="1.5" PointX="0.75" PointY="11" />
+        <AssociationConnector Association="sancionatorioModel.RefSS_NEG_INFRACTOR36" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -5,7 +5,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\patricio.aros\Desktop\Servicio Infraccional</_PublishTargetUrl>
+    <_PublishTargetUrl>F:\Compartida2\Fiscalización\Fisca Prod\ServicioInfraccional\CorreccionesAzurian12092019</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Dapper.dll">
@@ -17,23 +17,29 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="bin/Dapper.SimpleCRUD.pdb">
       <publishTime>08/29/2019 09:17:31</publishTime>
     </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>01/04/2017 00:44:16</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>01/04/2017 00:44:16</publishTime>
+    </File>
     <File Include="bin/Infraccional.AccesoDatos.dll">
-      <publishTime>09/05/2019 12:43:06</publishTime>
+      <publishTime>09/12/2019 12:01:32</publishTime>
     </File>
     <File Include="bin/Infraccional.AccesoDatos.pdb">
-      <publishTime>09/05/2019 12:43:06</publishTime>
+      <publishTime>09/12/2019 12:01:32</publishTime>
     </File>
     <File Include="bin/Infraccional.Negocio.dll">
-      <publishTime>09/05/2019 15:39:53</publishTime>
+      <publishTime>09/12/2019 12:01:33</publishTime>
     </File>
     <File Include="bin/Infraccional.Negocio.pdb">
-      <publishTime>09/05/2019 15:39:53</publishTime>
+      <publishTime>09/12/2019 12:01:33</publishTime>
     </File>
     <File Include="bin/Infraccional.ObjetoTransferencia.dll">
-      <publishTime>09/05/2019 12:43:05</publishTime>
+      <publishTime>09/12/2019 12:01:31</publishTime>
     </File>
     <File Include="bin/Infraccional.ObjetoTransferencia.pdb">
-      <publishTime>09/05/2019 12:43:05</publishTime>
+      <publishTime>09/12/2019 12:01:31</publishTime>
     </File>
     <File Include="bin/log4net.dll">
       <publishTime>08/29/2019 09:17:31</publishTime>
@@ -57,13 +63,13 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>08/24/2018 15:44:36</publishTime>
     </File>
     <File Include="bin/ServicioInfraccional.dll">
-      <publishTime>09/05/2019 15:39:53</publishTime>
+      <publishTime>09/12/2019 12:01:35</publishTime>
     </File>
     <File Include="bin/ServicioInfraccional.pdb">
-      <publishTime>09/05/2019 15:39:53</publishTime>
+      <publishTime>09/12/2019 12:01:35</publishTime>
     </File>
     <File Include="bin/Utilitarios.dll">
-      <publishTime>08/29/2019 09:17:32</publishTime>
+      <publishTime>03/12/2018 20:13:34</publishTime>
     </File>
     <File Include="bin/Utilitarios.dll.config">
       <publishTime>01/10/2019 18:21:35</publishTime>
@@ -71,11 +77,17 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
     <File Include="bin/Utilitarios.pdb">
       <publishTime>01/10/2019 18:24:34</publishTime>
     </File>
+    <File Include="FiscalizacionModel.edmx.diagram">
+      <publishTime>09/11/2019 20:11:56</publishTime>
+    </File>
+    <File Include="InfraccionalModel.edmx.diagram">
+      <publishTime>09/12/2019 10:47:30</publishTime>
+    </File>
     <File Include="ServicioInfraccional.svc">
       <publishTime>08/29/2019 09:17:32</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/05/2019 12:43:07</publishTime>
+      <publishTime>09/12/2019 12:01:36</publishTime>
     </File>
   </ItemGroup>
 </Project>

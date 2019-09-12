@@ -46,6 +46,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
@@ -62,7 +68,9 @@
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -85,6 +93,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FiscalizacionModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FiscalizacionModel.edmx</DependentUpon>
+      <LastGenOutput>FiscalizacionModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="FiscalizacionModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FiscalizacionModel.edmx</DependentUpon>
+      <LastGenOutput>FiscalizacionModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="InfraccionalModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>InfraccionalModel.edmx</DependentUpon>
+      <LastGenOutput>InfraccionalModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="InfraccionalModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>InfraccionalModel.edmx</DependentUpon>
+      <LastGenOutput>InfraccionalModel.cs</LastGenOutput>
+    </Content>
     <Content Include="ServicioInfraccional.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -93,6 +121,42 @@
     <Compile Include="DataContract\InfraccionalResponse.cs" />
     <Compile Include="DataContract\ParametrosADC.cs" />
     <Compile Include="DataContract\Respuesta.cs" />
+    <Compile Include="FiscalizacionModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FiscalizacionModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FiscalizacionModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FiscalizacionModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FiscalizacionModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FiscalizacionModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="FotoFW.cs">
+      <DependentUpon>FiscalizacionModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Historica.cs">
+      <DependentUpon>FiscalizacionModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InfraccionalModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InfraccionalModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InfraccionalModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InfraccionalModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InfraccionalModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Negocio\FactoriaEntidad.cs" />
     <Compile Include="Negocio\FactoriaAccion.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -106,11 +170,46 @@
       <DependentUpon>ServicioInfraccional.svc</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
+    <Compile Include="SS_ADM_USUARIOS.cs">
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_MAE_PROCESO.cs">
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_NEG_ADC.cs">
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_NEG_ADC_HITO.cs">
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_NEG_ADC_RESOLUCION.cs">
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_NEG_ADC_SENTENCIA.cs">
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SS_NEG_INFRACTOR.cs">
+      <DependentUpon>InfraccionalModel.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <EntityDeploy Include="FiscalizacionModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>FiscalizacionModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="FiscalizacionModel.edmx.diagram">
+      <DependentUpon>FiscalizacionModel.edmx</DependentUpon>
+    </Content>
+    <EntityDeploy Include="InfraccionalModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>InfraccionalModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="InfraccionalModel.edmx.diagram">
+      <DependentUpon>InfraccionalModel.edmx</DependentUpon>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\Settings.settings">
@@ -133,6 +232,9 @@
       <Project>{2f612800-58ea-4d62-8850-c8fdf040767e}</Project>
       <Name>Infraccional.ObjetoTransferencia</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
