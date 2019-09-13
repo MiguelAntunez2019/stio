@@ -47,6 +47,7 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Interfaces
         string DUMMYObtenerADCdetalleSegunNumeroADC(string FoliioADC);
 
         List<ADCResolucion> ObtenerADCResolucion(string ADC);
+        
     }
     
 }

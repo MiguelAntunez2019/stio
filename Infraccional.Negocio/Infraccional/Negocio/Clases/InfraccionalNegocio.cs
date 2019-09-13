@@ -275,6 +275,7 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
                 }
                 else
                 {
+                    log.Info("ERROR: El usuario con email " + actaDenuncia.EmailUsuario + " no existe en el sistema sancionatorio como inspector fiscalizador.");
                     throw new Exception("El usuario con email " + actaDenuncia.EmailUsuario + " no existe en el sistema sancionatorio como inspector fiscalizador");
                     //registro = 0;
                 }
@@ -364,9 +365,11 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
                 //// Revisión comuna y pais del infractor.
                 string pa = infractor.Pais;
                 string co = infractor.Comuna;
-                                
-                List<ActaDenunciaCitacionDetalle> ADCdetalle = new List<ActaDenunciaCitacionDetalle>();
+                 
 
+
+                List<ActaDenunciaCitacionDetalle> ADCdetalle = new List<ActaDenunciaCitacionDetalle>();
+                
                 try
                 {
                     ADCdetalle = ObtenerADCdetalleSegunFiscalizacion(actaDenunciaCitacion.ADC_NRO_FISCALIZACION);
@@ -410,7 +413,7 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
                     P_ADC_OFICINA_USUARIO = actaDenunciaCitacion.OficinaUsuario,
                     P_ADC_FECHA_INGRESO = actaDenunciaCitacion.FechaIngreso,
                     P_ADC_FECHA_DENUNCIA = actaDenunciaCitacion.ADC_FECHA_DENUNCIA,
-                    P_ADC_NRO_FISCALIZACION = folio,///actaDenunciaCitacion.ADC_NRO_FISCALIZACION,
+                    P_ADC_NRO_FISCALIZACION = (folio == "-") ? "0" : folio,
 
                 // Infractor
 
@@ -471,41 +474,27 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
             {
                 try
                 {
-                    string QueryDetalle = string.Format(@"SELECT Convert(varchar(30),A.folio) as folio,
-                                                                REG.ID_REGION, 
-                                                                REG.REGION_NOMBRE, 
-                                                                F.idComuna, 
-                                                                COM.COMUNA_NOMBRE, 
-                                                                C.ID_SUB_MATERIA, 
-                                                                C.NOMBRE_SUB_MATERIA,
-                                                                D.ID_MATERIA, 
-                                                                D.NOMBRE_MATERIA, 
-                                                                E.NOMBRE_AMBITO, 
-                                                                E.ID_AMBITO,
-                                                                F.idFiscalizacion,
-					                                            F.idchecklist,
-                                                                EH.rutRepresentante as rutRepresentante ,
-		                                                        EH.nombreRepresentante as nombreRepresentante,
-					                                            OFi.DESCRIPCION_OFICINA as descOficina,
-					                                            OFI.ID_OFICINA as idOficina,
-					                                            FO.nombre as urlAdc													 
-                                                        FROM ActaFiscalizacion A 
-                                                       LEFT JOIN  FiscalizacionDetalle B ON A.id_checklist = B.idChecklist
-                                                        LEFT JOIN SUB_MATERIA C ON B.idSubmateria = C.ID_SUB_MATERIA
-                                                        LEFT JOIN MATERIA D ON C.ID_MATERIA = D.ID_MATERIA
-                                                        LEFT JOIN AMBITO E ON D.ID_AMBITO = E.ID_AMBITO
-                                                        LEFT JOIN CheckList F ON A.id_checklist = F.idchecklist
-                                                        LEFT JOIN EntidadHist EH ON A.id_checklist = EH.idCheckList
-                                                        LEFT JOIN Historica H ON H.aftFolio = A.folio             			
-	                                                    LEFT JOIN FISCALIZADOR FIS ON FIS.idFiscalizador = B.idFiscalizador
-	
-	                                                    LEFT JOIN OFICINA OFI ON OFI.ID_OFICINA = FIS.oficina_sectorial
-	                                                    LEFT JOIN COMUNA COM ON COM.ID_COMUNA = OFI.ID_COMUNA -- Comuna
-	                                                    LEFT JOIN PROVINCIA PROV ON PROV.ID_PROVINCIA = COM.ID_COMUNA_PROVINCIA -- Provincia
-	                                                    LEFT JOIN REGION REG ON REG.ID_REGION = PROV.PROVINCIA_ID_REGION -- Provincia		
-
-	                                                    LEFT JOIN FotoFW FO ON FO.idchecklist = F.idchecklist AND FO.tipoDocumento = 3
-                                                        WHERE F.idFiscalizacion = '" + IdentificadorFiscalizacion + "'");
+                    string QueryDetalle = string.Format(@"SELECT Convert(varchar(30),H.aftFolio) as folio,
+                    H.RegFiscalizador as ID_REGION, 
+                    H.regionFiscalizado as REGION_NOMBRE, 
+                    H.ComunaFiscalizador as idComuna, 
+                    H.comunaNombre as COMUNA_NOMBRE, 
+                    H.idSubMateria as ID_SUB_MATERIA,  
+                    H.nombreSubMateria as NOMBRE_SUB_MATERIA,
+                    H.idMateria as ID_MATERIA, 
+                    H.nombreMateria as NOMBRE_MATERIA,                     
+					H.nombreAmbito as NOMBRE_AMBITO,                    
+					H.idAmbito as ID_AMBITO,
+                    H.idFiscalizacion,					
+					H.idChecklist,
+                    H.rutRepresentante as rutRepresentante ,
+		            H.nombreRepresentante as nombreRepresentante,
+					H.nombreOficina as descOficina,
+					H.idOficina  as idOficina,
+					FO.nombre as urlAdc													 
+            FROM Historica H            
+	        LEFT JOIN FotoFW FO ON FO.idchecklist = H.idchecklist AND FO.tipoDocumento = 3
+            WHERE H.idFiscalizacionCheckList = '" + IdentificadorFiscalizacion + "'");
                     //detalle = _daoFisca.ObtenerDetalleFisca(QueryDetalle);
                     detalle = _daoFisca.ObtenerDetalleFisca<ActaDenunciaCitacionDetalle>(QueryDetalle);
                     trans.Complete();

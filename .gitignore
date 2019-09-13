@@ -16,3 +16,7 @@ ServicioInfraccional/bin/
 ServicioInfraccional/obj/
 
 ServicioInfraccional/log/
+
+ServicioInfraccional/Properties/PublishProfiles/
+
+.vs/ServicioInfraccional/v16/Server/sqlite3/

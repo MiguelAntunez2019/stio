@@ -39,7 +39,7 @@ namespace Infraccional.ObjetoTransferencia.Infraccional.TO
         /// <summary>
         /// Representa el identificador de la region.
         /// </summary>
-        public string Region { get; set; }
+        public string Region { get; set; } 
         /// <summary>
         /// Representa el correo electronico del inspector.
         /// </summary>
