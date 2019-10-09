@@ -24,22 +24,22 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>01/04/2017 00:44:16</publishTime>
     </File>
     <File Include="bin/Infraccional.AccesoDatos.dll">
-      <publishTime>09/12/2019 12:01:32</publishTime>
+      <publishTime>10/07/2019 10:17:59</publishTime>
     </File>
     <File Include="bin/Infraccional.AccesoDatos.pdb">
-      <publishTime>09/12/2019 12:01:32</publishTime>
+      <publishTime>10/07/2019 10:17:59</publishTime>
     </File>
     <File Include="bin/Infraccional.Negocio.dll">
-      <publishTime>09/12/2019 12:01:33</publishTime>
+      <publishTime>10/07/2019 10:17:59</publishTime>
     </File>
     <File Include="bin/Infraccional.Negocio.pdb">
-      <publishTime>09/12/2019 12:01:33</publishTime>
+      <publishTime>10/07/2019 10:17:59</publishTime>
     </File>
     <File Include="bin/Infraccional.ObjetoTransferencia.dll">
-      <publishTime>09/12/2019 12:01:31</publishTime>
+      <publishTime>10/07/2019 10:17:58</publishTime>
     </File>
     <File Include="bin/Infraccional.ObjetoTransferencia.pdb">
-      <publishTime>09/12/2019 12:01:31</publishTime>
+      <publishTime>10/07/2019 10:17:58</publishTime>
     </File>
     <File Include="bin/log4net.dll">
       <publishTime>08/29/2019 09:17:31</publishTime>
@@ -63,10 +63,10 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>08/24/2018 15:44:36</publishTime>
     </File>
     <File Include="bin/ServicioInfraccional.dll">
-      <publishTime>09/12/2019 12:01:35</publishTime>
+      <publishTime>10/07/2019 10:18:01</publishTime>
     </File>
     <File Include="bin/ServicioInfraccional.pdb">
-      <publishTime>09/12/2019 12:01:35</publishTime>
+      <publishTime>10/07/2019 10:18:01</publishTime>
     </File>
     <File Include="bin/Utilitarios.dll">
       <publishTime>03/12/2018 20:13:34</publishTime>
@@ -87,7 +87,7 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
       <publishTime>08/29/2019 09:17:32</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/12/2019 12:01:36</publishTime>
+      <publishTime>09/12/2019 18:21:24</publishTime>
     </File>
   </ItemGroup>
 </Project>

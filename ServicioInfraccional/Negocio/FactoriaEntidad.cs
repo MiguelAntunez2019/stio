@@ -97,6 +97,18 @@ namespace ServicioInfraccional.Negocio
 
                                 // Con esta consulta trae la información completa desde el sistema de fiscalización
                                 var objFisca = BDFisca.Historica.Where(a => a.aftFolio == Parametros.NumeroFiscalizacion).FirstOrDefault();
+
+                                if(objFisca == null)
+                                {
+                                    respuesta.CodigoRespuesta = "ERROR_LIST";
+                                    respuesta.Mensaje = "No se encontró información relacionada al N° de Fiscalización suministrado en el sistema de fiscalización. ["+Parametros.NumeroFiscalizacion+"]";
+                                    string json = _contextoSerializacion.Serializar(Actas);
+                                    respuesta.Json = json;
+                                    return respuesta;
+                                }
+
+
+
                                 // Con esta consulta trae información de los adjuntos.
                                 var fotoADC = BDFisca.FotoFW.Where(a => a.idchecklist == objFisca.idChecklist && a.tipoDocumento == 3).FirstOrDefault();
                               
@@ -176,7 +188,7 @@ namespace ServicioInfraccional.Negocio
                                 }
                                 else
                                 {
-                                    return respuesta = Respuesta.RespuestaPersonalizado("La fiscalización no cuenta con actas asociadas", "ERROR_LIST");
+                                    return respuesta = Respuesta.RespuestaPersonalizado("No existe información de ADC vinculada con el Sistema Infraccional", "ERROR_LIST");
                                 }
                             }
                             else
