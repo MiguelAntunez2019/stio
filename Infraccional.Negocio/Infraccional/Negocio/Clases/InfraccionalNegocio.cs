@@ -280,8 +280,6 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
                     //registro = 0;
                 }
 
-
-
                 try
                 {
 
@@ -394,6 +392,31 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
                     co = "130101";
                 }
 
+
+
+                // Se cren y setean las variables para los datos del infractor
+                var nombreInfractor = "";
+                var rutInfractor = "";
+                var apellidoPInfractor = "";
+                var apellidoMInfractor = "";
+                var direcciónInfractor = "";
+
+                if (actaDenunciaCitacion.Infractor.TipoPersona == 2)
+                {
+                    nombreInfractor = ADCdetalle[0].nombreEntidad;
+                    rutInfractor = ADCdetalle[0].rutEntidad;
+                    direcciónInfractor = ADCdetalle[0].direccionEntidad;
+                }
+                else
+                {
+                    nombreInfractor = actaDenunciaCitacion.Infractor.Nombre;
+                    rutInfractor = actaDenunciaCitacion.Infractor.Identificacion;
+                    direcciónInfractor = actaDenunciaCitacion.Infractor.Direccion;
+                    apellidoPInfractor = actaDenunciaCitacion.Infractor.ApellidoPaterno;
+                    apellidoMInfractor = actaDenunciaCitacion.Infractor.ApellidoMaterno;
+                }
+                
+
                 ActaDenunciaProcedimiento actaProcedimiento = new ActaDenunciaProcedimiento()
                 {
                     //ADC
@@ -417,14 +440,16 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
 
                 // Infractor
 
-                P_ADC_COD_INFRACTOR = actaDenunciaCitacion.Infractor.Identificador,
-                    P_ADC_NOMBRES = actaDenunciaCitacion.Infractor.Nombre,
-                    P_ADC_APELLIDO_PAT = actaDenunciaCitacion.Infractor.ApellidoPaterno,
-                    P_ADC_APELLIDO_MAT = actaDenunciaCitacion.Infractor.ApellidoMaterno,
+                    P_ADC_COD_INFRACTOR = actaDenunciaCitacion.Infractor.Identificador,
+                    P_ADC_NOMBRES = nombreInfractor,
+                    P_ADC_APELLIDO_PAT = apellidoPInfractor,
+                    P_ADC_APELLIDO_MAT = apellidoMInfractor,
+
                     P_ADC_TIPO_ID = actaDenunciaCitacion.Infractor.TipoIdentificacion,
-                    P_ADC_IDENTIFICACION = actaDenunciaCitacion.Infractor.Identificacion,
+                    P_ADC_IDENTIFICACION = rutInfractor,
                     P_ADC_TIPO_PERSONA = actaDenunciaCitacion.Infractor.TipoPersona,
-                    P_ADC_DOMICILIO = actaDenunciaCitacion.Infractor.Direccion,
+
+                    P_ADC_DOMICILIO = direcciónInfractor,
                     P_ADC_GENERO = ' ',
                     P_ADC_COD_ACTIVIDAD = null,
                     P_ADC_COD_PAIS = Convert.ToInt32(pa),
@@ -487,6 +512,9 @@ namespace Infraccional.Negocio.Infraccional.Negocio.Clases
 					H.idAmbito as ID_AMBITO,
                     H.idFiscalizacion,					
 					H.idChecklist,
+                    H.nombreEntidad,
+                    H.rutEntidad,
+                    H.direccionEntidad,
                     H.rutRepresentante as rutRepresentante ,
 		            H.nombreRepresentante as nombreRepresentante,
 					H.nombreOficina as descOficina,

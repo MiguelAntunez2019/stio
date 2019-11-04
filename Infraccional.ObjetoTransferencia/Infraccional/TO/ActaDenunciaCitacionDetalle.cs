@@ -22,6 +22,9 @@ namespace Infraccional.ObjetoTransferencia.Infraccional.TO
         public int ID_AMBITO { get; set; }
         public string NOMBRE_AMBITO { get; set; }
         public string folio { get; set; }
+        public string nombreEntidad { get; set; }
+        public string rutEntidad { get; set; }
+        public string direccionEntidad { get; set; }
         public string rutRepresentante { get; set; }
         public string nombreRepresentante { get; set; }
         public string urlAdc { get; set; }
